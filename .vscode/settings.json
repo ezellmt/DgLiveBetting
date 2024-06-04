@@ -1,0 +1,5 @@
+{
+    "CodeGPT.apiKey": "Google AI Studio",
+    "CodeGPT.Autocomplete.maxTokens": 1110,
+    "CodeGPT.Autocomplete.enabled": true
+}

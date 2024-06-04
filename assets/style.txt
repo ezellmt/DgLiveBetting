@@ -1,0 +1,217 @@
+:root {
+    --primary-color: #344675;
+    --secondary-color: #00b894;
+    --tertiary-color: #74b9ff;
+    --quaternary-color: #ff7675;
+    --background-color: #f4f5f7;
+    --header-background-color: rgba(0, 0, 0, 0.8);
+    --text-color: #ffffff;
+    --border-color: #ddd;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.dash-content {
+    padding: 20px;
+}
+
+.dash-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.dash-graph {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--box-shadow-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-chart-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pie-chart {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.ag-theme-quartz .ag-header {
+    background-color: var(--header-background-color);
+    color: var(--text-color);
+}
+
+.ag-theme-quartz .ag-header-cell-label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.ag-theme-quartz .ag-cell {
+    font-size: 14px;
+    color: black;
+}
+
+.ag-icon.ag-icon-menu,
+.ag-icon.ag-icon-filter,
+.ag-header-icon,
+.ag-header-icon.ag-header-cell-menu-button,
+.ag-theme-quartz .ag-header-cell-menu-button {
+    color: var(--text-color) !important;
+}
+
+.sidebar {
+    background: var(--header-background-color);
+    backdrop-filter: blur(3px);
+    color: var(--text-color);
+    width: 280px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar a:hover,
+.sidebar a:hover i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.nav-link[href="/live_stats"]:hover,
+.sidebar a.nav-link[href="/live_stats"]:hover i {
+    color: var(--tertiary-color);
+}
+
+.sidebar a.nav-link[href="/hole_results"]:hover,
+.sidebar a.nav-link[href="/hole_results"]:hover i {
+    color: var(--quaternary-color);
+}
+
+.sidebar a.nav-link[href^="/live_betting"]:hover,
+.sidebar a.nav-link[href^="/live_betting"]:hover i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.active,
+.sidebar a.active i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.nav-link[href="/live_stats"].active,
+.sidebar a.nav-link[href="/live_stats"].active i {
+    color: var(--tertiary-color);
+}
+
+.sidebar a.nav-link[href="/hole_results"].active,
+.sidebar a.nav-link[href="/hole_results"].active i {
+    color: var(--quaternary-color);
+}
+
+.sidebar a.nav-link[href^="/live_betting"].active,
+.sidebar a.nav-link[href^="/live_betting"].active i {
+    color: var(--secondary-color);
+}
+
+.filters-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 20px 0 10px;
+}
+
+.sidebar-dropdown {
+    margin-bottom: 10px;
+}
+
+.sidebar-dropdown .Select__control,
+.sidebar-dropdown .Select__menu,
+.sidebar-dropdown .Select__option,
+.sidebar-dropdown .Select__single-value {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid var(--border-color);
+}
+
+.sidebar-dropdown .Select__option--is-focused {
+    background-color: #f0f0f0 !important;
+    color: black !important;
+}
+
+.sidebar-dropdown .Select__option--is-selected {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    flex: 1;
+    width: calc(100% - 300px);
+}
+
+.sidebar a, .sidebar a i {
+    transition: color 0.3s;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.Select-control,
+.Select-menu-outer,
+.Select-placeholder,
+.Select-value-label,
+.Select-option,
+.Select-option.is-focused,
+.Select-option.is-selected {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid var(--border-color) !important;
+}

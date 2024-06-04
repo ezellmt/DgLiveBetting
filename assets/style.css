@@ -1,0 +1,278 @@
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --primary-color: #374785;
+    --secondary-color: #F76C6C;
+    --tertiary-color: #F8E9A1;
+    --quaternary-color: #A8D0E6;
+    --background-color: #f4f5f7;
+    --header-background-color: #24305E;
+    --text-color: #ffffff;
+    --border-color: #ddd;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --accent-green: #6FB98F;
+    --deep-purple: #5F4B8B;
+    --soft-coral: #FFA07A;
+    --muted-teal: #008080;
+    --warm-beige: #D8C3A5;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+.dash-content {
+    padding: 20px;
+}
+
+.dash-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.dash-graph {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--box-shadow-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: calc(100% - 40px); /* Adjust width to fill the space */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-chart-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pie-chart {
+    width: 300px; /* Adjust width to fill the space */
+    height: 300px; /* Adjust height for bigger size */
+    margin: 10px;
+}
+
+.ag-theme-quartz .ag-header {
+    background-color: var(--header-background-color);
+    color: var(--text-color);
+}
+
+.ag-theme-quartz .ag-header-cell-label {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.ag-theme-quartz .ag-cell {
+    font-size: 14px;
+    color: black;
+}
+
+.ag-icon.ag-icon-menu,
+.ag-icon.ag-icon-filter,
+.ag-header-icon,
+.ag-header-icon.ag-header-cell-menu-button {
+    color: var(--text-color) !important;
+}
+
+ag-header-icon.ag-header-cell-menu-button {
+    color: var(--text-color) !important;
+}
+
+.ag-theme-quartz .ag-header-cell-menu-button {
+    color: var(--text-color) !important;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background: var(--header-background-color);
+    backdrop-filter: blur(3px);
+    color: var(--text-color);
+    width: 280px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar a:hover,
+.sidebar a:hover i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.nav-link[href="/live_stats"]:hover,
+.sidebar a.nav-link[href="/live_stats"]:hover i {
+    color: var(--tertiary-color);
+}
+
+.sidebar a.nav-link[href="/hole_results"]:hover,
+.sidebar a.nav-link[href="/hole_results"]:hover i {
+    color: var(--quaternary-color);
+}
+
+.sidebar a.nav-link[href^="/live_betting"]:hover,
+.sidebar a.nav-link[href^="/live_betting"]:hover i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.active,
+.sidebar a.active i {
+    color: var(--secondary-color);
+}
+
+.sidebar a.nav-link[href="/live_stats"].active,
+.sidebar a.nav-link[href="/live_stats"].active i {
+    color: var(--tertiary-color);
+}
+
+.sidebar a.nav-link[href="/hole_results"].active,
+.sidebar a.nav-link[href="/hole_results"].active i {
+    color: var(--quaternary-color);
+}
+
+.sidebar a.nav-link[href^="/live_betting"].active,
+.sidebar a.nav-link[href^="/live_betting"].active i {
+    color: var(--secondary-color);
+}
+
+.filters-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 20px 0 10px;
+}
+
+.sidebar-dropdown {
+    margin-bottom: 10px;
+}
+
+/* Additional styling for better readability of the dropdowns */
+.sidebar-dropdown .Select__control {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc;
+}
+
+.sidebar-dropdown .Select__menu {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc;
+}
+
+.sidebar-dropdown .Select__single-value {
+    color: black !important;
+}
+
+.sidebar-dropdown .Select__option {
+    color: black !important;
+    background-color: white !important;
+}
+
+.sidebar-dropdown .Select__option--is-focused {
+    background-color: #f0f0f0 !important;
+    color: black !important;
+}
+
+.sidebar-dropdown .Select__option--is-selected {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+}
+
+/* Content area */
+.content {
+    margin-left: 300px;
+    padding: 20px;
+    flex: 1;
+    width: calc(100% - 300px);
+}
+
+/* Ensure the sidebar links have a smooth transition */
+.sidebar a, .sidebar a i {
+    transition: color 0.3s;
+}
+
+/* Responsive design for sidebar */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* Styling for the Select control */
+.Select-control {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+}
+
+/* Styling for the Select menu */
+.Select-menu-outer {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+}
+
+/* Styling for the Select placeholder */
+.Select-placeholder {
+    color: black !important;
+}
+
+/* Styling for the Select single value */
+.Select-value-label {
+    color: black !important;
+}
+
+/* Styling for the Select options */
+.Select-option {
+    color: black !important;
+    background-color: white !important;
+}
+
+/* Styling for the focused Select option */
+.Select-option.is-focused {
+    background-color: #f0f0f0 !important;
+    color: black !important;
+}
+
+/* Styling for the selected Select option */
+.Select-option.is-selected {
+    background-color: #e0e0e0 !important;
+    color: black !important;
+}

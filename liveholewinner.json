@@ -1,0 +1,2863 @@
+{
+    "eventGroup": {
+      "eventGroupId": "79720",
+      "displayGroupId": "12",
+      "name": "PGA Championship",
+      "offerCategories": [
+        {
+          "offerCategoryId": 484,
+          "name": "Tournament Lines"
+        },
+        {
+          "offerCategoryId": 666,
+          "name": "Live Matchups"
+        },
+        {
+          "offerCategoryId": 1172,
+          "name": "Live Hole Props",
+          "offerSubcategoryDescriptors": [
+            {
+              "subcategoryId": 11721,
+              "name": "Hole Winner (2-Way)",
+              "offerSubcategory": {
+                "name": "Hole Winner (2-Way)",
+                "subcategoryId": 11721,
+                "componentId": 29,
+                "offers": [
+                  [
+                    {
+                      "providerOfferId": "197218000",
+                      "eventId": "30605978",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197218000#1798678511_13L79720Q1-1349936394Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218000",
+                          "label": "Rory McIlroy",
+                          "oddsAmerican": "-170",
+                          "oddsDecimal": 1.5882353,
+                          "oddsDecimalDisplay": "1.58",
+                          "oddsFractional": "10/17",
+                          "participant": "Rory McIlroy",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798679511,
+                          "participants": [
+                            {
+                              "name": "Rory McIlroy",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197218000#1798678510_13L79720Q1-2029989056Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218000",
+                          "label": "Tom Kim",
+                          "oddsAmerican": "+130",
+                          "oddsDecimal": 2.3,
+                          "oddsDecimalDisplay": "2.30",
+                          "oddsFractional": "13/10",
+                          "participant": "Tom Kim",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798681510,
+                          "participants": [
+                            {
+                              "name": "Tom Kim",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197220035",
+                      "eventId": "30605979",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197220035#1798687386_13L79720Q1740159400Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220035",
+                          "label": "Jordan Spieth",
+                          "oddsAmerican": "-145",
+                          "oddsDecimal": 1.68965518,
+                          "oddsDecimalDisplay": "1.68",
+                          "oddsFractional": "20/29",
+                          "participant": "Jordan Spieth",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798688386,
+                          "participants": [
+                            {
+                              "name": "Jordan Spieth",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197220035#1798687387_13L79720Q1443237071Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220035",
+                          "label": "Russell Henley",
+                          "oddsAmerican": "+110",
+                          "oddsDecimal": 2.1,
+                          "oddsDecimalDisplay": "2.10",
+                          "oddsFractional": "11/10",
+                          "participant": "Russell Henley",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798690387,
+                          "participants": [
+                            {
+                              "name": "Russell Henley",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197219556",
+                      "eventId": "30605980",
+                      "eventGroupId": "79720",
+                      "label": "Hole 17 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197219556#1798684477_13L79720Q1-1952264606Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219556",
+                          "label": "Keegan Bradley",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Keegan Bradley",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798685477,
+                          "participants": [
+                            {
+                              "name": "Keegan Bradley",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197219556#1798684478_13L79720Q1-1817037694Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219556",
+                          "label": "Taylor Moore",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Taylor Moore",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798687478,
+                          "participants": [
+                            {
+                              "name": "Taylor Moore",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197221951",
+                      "eventId": "30605980",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197221951#1798701267_13L79720Q1-1952264606Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221951",
+                          "label": "Keegan Bradley",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Keegan Bradley",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798702267,
+                          "participants": [
+                            {
+                              "name": "Keegan Bradley",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197221951#1798701266_13L79720Q1-1817037694Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221951",
+                          "label": "Taylor Moore",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Taylor Moore",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704266,
+                          "participants": [
+                            {
+                              "name": "Taylor Moore",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197218700",
+                      "eventId": "30605981",
+                      "eventGroupId": "79720",
+                      "label": "Hole 16 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197218700#1798681252_13L79720Q1-2033636125Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218700",
+                          "label": "Thomas Detry",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Thomas Detry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798682252,
+                          "participants": [
+                            {
+                              "name": "Thomas Detry",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197218700#1798681251_13L79720Q1-23346502Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218700",
+                          "label": "Lucas Herbert",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Lucas Herbert",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798684251,
+                          "participants": [
+                            {
+                              "name": "Lucas Herbert",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197221706",
+                      "eventId": "30605981",
+                      "eventGroupId": "79720",
+                      "label": "Hole 17 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197221706#1798700327_13L79720Q1-2033636125Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221706",
+                          "label": "Thomas Detry",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Thomas Detry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798701327,
+                          "participants": [
+                            {
+                              "name": "Thomas Detry",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197221706#1798700326_13L79720Q1-23346502Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221706",
+                          "label": "Lucas Herbert",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Lucas Herbert",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798703326,
+                          "participants": [
+                            {
+                              "name": "Lucas Herbert",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222732",
+                      "eventId": "30605981",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222732#1798704371_13L79720Q1-2033636125Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222732",
+                          "label": "Thomas Detry",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Thomas Detry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798705371,
+                          "participants": [
+                            {
+                              "name": "Thomas Detry",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222732#1798704370_13L79720Q1-23346502Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222732",
+                          "label": "Lucas Herbert",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Lucas Herbert",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798707370,
+                          "participants": [
+                            {
+                              "name": "Lucas Herbert",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197220241",
+                      "eventId": "30605982",
+                      "eventGroupId": "79720",
+                      "label": "Hole 16 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197220241#1798689080_13L79720Q11966808263Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220241",
+                          "label": "Harris English",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Harris English",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798690080,
+                          "participants": [
+                            {
+                              "name": "Harris English",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197220241#1798689081_13L79720Q1-877562129Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220241",
+                          "label": "Austin Eckroat",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Austin Eckroat",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798692081,
+                          "participants": [
+                            {
+                              "name": "Austin Eckroat",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222234",
+                      "eventId": "30605982",
+                      "eventGroupId": "79720",
+                      "label": "Hole 17 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222234#1798702567_13L79720Q11966808263Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222234",
+                          "label": "Harris English",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Harris English",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798703567,
+                          "participants": [
+                            {
+                              "name": "Harris English",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222234#1798702568_13L79720Q1-877562129Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222234",
+                          "label": "Austin Eckroat",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Austin Eckroat",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798705568,
+                          "participants": [
+                            {
+                              "name": "Austin Eckroat",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223325",
+                      "eventId": "30605982",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223325#1798707079_13L79720Q11966808263Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223325",
+                          "label": "Harris English",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Harris English",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798708079,
+                          "participants": [
+                            {
+                              "name": "Harris English",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223325#1798707080_13L79720Q1-877562129Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223325",
+                          "label": "Austin Eckroat",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Austin Eckroat",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798710080,
+                          "participants": [
+                            {
+                              "name": "Austin Eckroat",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197219654",
+                      "eventId": "30605983",
+                      "eventGroupId": "79720",
+                      "label": "Hole 15 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197219654#1798684866_13L79720Q1-1902362921Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219654",
+                          "label": "Justin Thomas",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Justin Thomas",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798685866,
+                          "participants": [
+                            {
+                              "name": "Justin Thomas",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197219654#1798684867_13L79720Q11175727473Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219654",
+                          "label": "Tony Finau",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Tony Finau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798687867,
+                          "participants": [
+                            {
+                              "name": "Tony Finau",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197221967",
+                      "eventId": "30605983",
+                      "eventGroupId": "79720",
+                      "label": "Hole 16 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197221967#1798701326_13L79720Q1-1902362921Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221967",
+                          "label": "Justin Thomas",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Justin Thomas",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798702326,
+                          "participants": [
+                            {
+                              "name": "Justin Thomas",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197221967#1798701325_13L79720Q11175727473Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221967",
+                          "label": "Tony Finau",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Tony Finau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704325,
+                          "participants": [
+                            {
+                              "name": "Tony Finau",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223156",
+                      "eventId": "30605983",
+                      "eventGroupId": "79720",
+                      "label": "Hole 17 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223156#1798706346_13L79720Q1-1902362921Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223156",
+                          "label": "Justin Thomas",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Justin Thomas",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798707346,
+                          "participants": [
+                            {
+                              "name": "Justin Thomas",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223156#1798706345_13L79720Q11175727473Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223156",
+                          "label": "Tony Finau",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Tony Finau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798709345,
+                          "participants": [
+                            {
+                              "name": "Tony Finau",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224059",
+                      "eventId": "30605983",
+                      "eventGroupId": "79720",
+                      "label": "Hole 18 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224059#1798709825_13L79720Q1-1902362921Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224059",
+                          "label": "Justin Thomas",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Justin Thomas",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798710825,
+                          "participants": [
+                            {
+                              "name": "Justin Thomas",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224059#1798709824_13L79720Q11175727473Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224059",
+                          "label": "Tony Finau",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Tony Finau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798712824,
+                          "participants": [
+                            {
+                              "name": "Tony Finau",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197220416",
+                      "eventId": "30605984",
+                      "eventGroupId": "79720",
+                      "label": "Hole 14 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197220416#1798690199_13L79720Q1-1368041672Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220416",
+                          "label": "Dean Burmester",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Dean Burmester",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798691199,
+                          "participants": [
+                            {
+                              "name": "Dean Burmester",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197220416#1798690200_13L79720Q1-2118887017Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220416",
+                          "label": "Lee Hodges",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Lee Hodges",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798693200,
+                          "participants": [
+                            {
+                              "name": "Lee Hodges",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197221944",
+                      "eventId": "30605984",
+                      "eventGroupId": "79720",
+                      "label": "Hole 15 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197221944#1798701244_13L79720Q1-1368041672Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221944",
+                          "label": "Dean Burmester",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Dean Burmester",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798702244,
+                          "participants": [
+                            {
+                              "name": "Dean Burmester",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197221944#1798701245_13L79720Q1-2118887017Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221944",
+                          "label": "Lee Hodges",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Lee Hodges",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704245,
+                          "participants": [
+                            {
+                              "name": "Lee Hodges",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223200",
+                      "eventId": "30605984",
+                      "eventGroupId": "79720",
+                      "label": "Hole 16 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223200#1798706535_13L79720Q1-1368041672Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223200",
+                          "label": "Dean Burmester",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Dean Burmester",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798707535,
+                          "participants": [
+                            {
+                              "name": "Dean Burmester",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223200#1798706536_13L79720Q1-2118887017Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223200",
+                          "label": "Lee Hodges",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Lee Hodges",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798709536,
+                          "participants": [
+                            {
+                              "name": "Lee Hodges",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224142",
+                      "eventId": "30605984",
+                      "eventGroupId": "79720",
+                      "label": "Hole 17 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224142#1798710091_13L79720Q1-1368041672Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224142",
+                          "label": "Dean Burmester",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Dean Burmester",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798711091,
+                          "participants": [
+                            {
+                              "name": "Dean Burmester",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224142#1798710092_13L79720Q1-2118887017Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224142",
+                          "label": "Lee Hodges",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Lee Hodges",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798713092,
+                          "participants": [
+                            {
+                              "name": "Lee Hodges",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197217681",
+                      "eventId": "30605985",
+                      "eventGroupId": "79720",
+                      "label": "Hole 12 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197217681#1798675840_13L79720Q1-116272073Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197217681",
+                          "label": "Justin Rose",
+                          "oddsAmerican": "-125",
+                          "oddsDecimal": 1.8,
+                          "oddsDecimalDisplay": "1.80",
+                          "oddsFractional": "4/5",
+                          "participant": "Justin Rose",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798676840,
+                          "participants": [
+                            {
+                              "name": "Justin Rose",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197217681#1798675841_13L79720Q1307065907Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197217681",
+                          "label": "Robert MacIntyre",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Robert MacIntyre",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798678841,
+                          "participants": [
+                            {
+                              "name": "Robert MacIntyre",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197220388",
+                      "eventId": "30605985",
+                      "eventGroupId": "79720",
+                      "label": "Hole 13 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197220388#1798690113_13L79720Q1-116272073Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220388",
+                          "label": "Justin Rose",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Justin Rose",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798691113,
+                          "participants": [
+                            {
+                              "name": "Justin Rose",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197220388#1798690114_13L79720Q1307065907Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220388",
+                          "label": "Robert MacIntyre",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Robert MacIntyre",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798693114,
+                          "participants": [
+                            {
+                              "name": "Robert MacIntyre",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222616",
+                      "eventId": "30605985",
+                      "eventGroupId": "79720",
+                      "label": "Hole 14 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222616#1798703992_13L79720Q1-116272073Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222616",
+                          "label": "Justin Rose",
+                          "oddsAmerican": "-125",
+                          "oddsDecimal": 1.8,
+                          "oddsDecimalDisplay": "1.80",
+                          "oddsFractional": "4/5",
+                          "participant": "Justin Rose",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704992,
+                          "participants": [
+                            {
+                              "name": "Justin Rose",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222616#1798703993_13L79720Q1307065907Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222616",
+                          "label": "Robert MacIntyre",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Robert MacIntyre",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798706993,
+                          "participants": [
+                            {
+                              "name": "Robert MacIntyre",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223413",
+                      "eventId": "30605985",
+                      "eventGroupId": "79720",
+                      "label": "Hole 15 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223413#1798707372_13L79720Q1-116272073Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223413",
+                          "label": "Justin Rose",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Justin Rose",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798708372,
+                          "participants": [
+                            {
+                              "name": "Justin Rose",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223413#1798707373_13L79720Q1307065907Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223413",
+                          "label": "Robert MacIntyre",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Robert MacIntyre",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798710373,
+                          "participants": [
+                            {
+                              "name": "Robert MacIntyre",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224617",
+                      "eventId": "30605985",
+                      "eventGroupId": "79720",
+                      "label": "Hole 16 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224617#1798712748_13L79720Q1-116272073Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224617",
+                          "label": "Justin Rose",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Justin Rose",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798713748,
+                          "participants": [
+                            {
+                              "name": "Justin Rose",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224617#1798712749_13L79720Q1307065907Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224617",
+                          "label": "Robert MacIntyre",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Robert MacIntyre",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798715749,
+                          "participants": [
+                            {
+                              "name": "Robert MacIntyre",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197219796",
+                      "eventId": "30605986",
+                      "eventGroupId": "79720",
+                      "label": "Hole 12 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197219796#1798685408_13L79720Q111847276Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219796",
+                          "label": "Bryson DeChambeau",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Bryson DeChambeau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798686408,
+                          "participants": [
+                            {
+                              "name": "Bryson DeChambeau",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197219796#1798685407_13L79720Q1-248428631Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197219796",
+                          "label": "Viktor Hovland",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Viktor Hovland",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798688407,
+                          "participants": [
+                            {
+                              "name": "Viktor Hovland",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222158",
+                      "eventId": "30605986",
+                      "eventGroupId": "79720",
+                      "label": "Hole 13 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222158#1798702156_13L79720Q111847276Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222158",
+                          "label": "Bryson DeChambeau",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Bryson DeChambeau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798703156,
+                          "participants": [
+                            {
+                              "name": "Bryson DeChambeau",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222158#1798702155_13L79720Q1-248428631Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222158",
+                          "label": "Viktor Hovland",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Viktor Hovland",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798705155,
+                          "participants": [
+                            {
+                              "name": "Viktor Hovland",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223428",
+                      "eventId": "30605986",
+                      "eventGroupId": "79720",
+                      "label": "Hole 14 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223428#1798707419_13L79720Q111847276Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223428",
+                          "label": "Bryson DeChambeau",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Bryson DeChambeau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798708419,
+                          "participants": [
+                            {
+                              "name": "Bryson DeChambeau",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223428#1798707420_13L79720Q1-248428631Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223428",
+                          "label": "Viktor Hovland",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Viktor Hovland",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798710420,
+                          "participants": [
+                            {
+                              "name": "Viktor Hovland",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224123",
+                      "eventId": "30605986",
+                      "eventGroupId": "79720",
+                      "label": "Hole 15 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224123#1798710044_13L79720Q111847276Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224123",
+                          "label": "Bryson DeChambeau",
+                          "oddsAmerican": "-115",
+                          "oddsDecimal": 1.86956522,
+                          "oddsDecimalDisplay": "1.86",
+                          "oddsFractional": "20/23",
+                          "participant": "Bryson DeChambeau",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798711044,
+                          "participants": [
+                            {
+                              "name": "Bryson DeChambeau",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224123#1798710043_13L79720Q1-248428631Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224123",
+                          "label": "Viktor Hovland",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Viktor Hovland",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798713043,
+                          "participants": [
+                            {
+                              "name": "Viktor Hovland",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197216576",
+                      "eventId": "30605987",
+                      "eventGroupId": "79720",
+                      "label": "Hole 10 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197216576#1798670067_13L79720Q11651099969Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197216576",
+                          "label": "Sahith Theegala",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Sahith Theegala",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798671067,
+                          "participants": [
+                            {
+                              "name": "Sahith Theegala",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197216576#1798670068_13L79720Q1-323376883Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197216576",
+                          "label": "Shane Lowry",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Shane Lowry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798673068,
+                          "participants": [
+                            {
+                              "name": "Shane Lowry",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197220382",
+                      "eventId": "30605987",
+                      "eventGroupId": "79720",
+                      "label": "Hole 11 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197220382#1798690092_13L79720Q11651099969Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220382",
+                          "label": "Sahith Theegala",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Sahith Theegala",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798691092,
+                          "participants": [
+                            {
+                              "name": "Sahith Theegala",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197220382#1798690091_13L79720Q1-323376883Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197220382",
+                          "label": "Shane Lowry",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Shane Lowry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798693091,
+                          "participants": [
+                            {
+                              "name": "Shane Lowry",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197221949",
+                      "eventId": "30605987",
+                      "eventGroupId": "79720",
+                      "label": "Hole 12 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197221949#1798701259_13L79720Q11651099969Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221949",
+                          "label": "Sahith Theegala",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Sahith Theegala",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798702259,
+                          "participants": [
+                            {
+                              "name": "Sahith Theegala",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197221949#1798701258_13L79720Q1-323376883Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197221949",
+                          "label": "Shane Lowry",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Shane Lowry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704258,
+                          "participants": [
+                            {
+                              "name": "Shane Lowry",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197223296",
+                      "eventId": "30605987",
+                      "eventGroupId": "79720",
+                      "label": "Hole 13 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197223296#1798706966_13L79720Q11651099969Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223296",
+                          "label": "Sahith Theegala",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Sahith Theegala",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798707966,
+                          "participants": [
+                            {
+                              "name": "Sahith Theegala",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197223296#1798706965_13L79720Q1-323376883Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197223296",
+                          "label": "Shane Lowry",
+                          "oddsAmerican": "-110",
+                          "oddsDecimal": 1.90909091,
+                          "oddsDecimalDisplay": "1.90",
+                          "oddsFractional": "10/11",
+                          "participant": "Shane Lowry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798709965,
+                          "participants": [
+                            {
+                              "name": "Shane Lowry",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224682",
+                      "eventId": "30605987",
+                      "eventGroupId": "79720",
+                      "label": "Hole 14 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224682#1798713014_13L79720Q11651099969Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224682",
+                          "label": "Sahith Theegala",
+                          "oddsAmerican": "-120",
+                          "oddsDecimal": 1.83333334,
+                          "oddsDecimalDisplay": "1.83",
+                          "oddsFractional": "5/6",
+                          "participant": "Sahith Theegala",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798714014,
+                          "participants": [
+                            {
+                              "name": "Sahith Theegala",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224682#1798713013_13L79720Q1-323376883Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224682",
+                          "label": "Shane Lowry",
+                          "oddsAmerican": "-105",
+                          "oddsDecimal": 1.95238096,
+                          "oddsDecimalDisplay": "1.95",
+                          "oddsFractional": "20/21",
+                          "participant": "Shane Lowry",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798716013,
+                          "participants": [
+                            {
+                              "name": "Shane Lowry",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ],
+                  [
+                    {
+                      "providerOfferId": "197218059",
+                      "eventId": "30605988",
+                      "eventGroupId": "79720",
+                      "label": "Hole 10 Winner - Round 4",
+                      "isSuspended": true,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197218059#1798678712_13L79720Q1-1042415507Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218059",
+                          "label": "Xander Schauffele",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Xander Schauffele",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798679712,
+                          "participants": [
+                            {
+                              "name": "Xander Schauffele",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197218059#1798678713_13L79720Q1-355906881Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197218059",
+                          "label": "Collin Morikawa",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Collin Morikawa",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798681713,
+                          "participants": [
+                            {
+                              "name": "Collin Morikawa",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222016",
+                      "eventId": "30605988",
+                      "eventGroupId": "79720",
+                      "label": "Hole 11 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222016#1798701594_13L79720Q1-1042415507Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222016",
+                          "label": "Xander Schauffele",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Xander Schauffele",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798702594,
+                          "participants": [
+                            {
+                              "name": "Xander Schauffele",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222016#1798701595_13L79720Q1-355906881Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222016",
+                          "label": "Collin Morikawa",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Collin Morikawa",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798704595,
+                          "participants": [
+                            {
+                              "name": "Collin Morikawa",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197222936",
+                      "eventId": "30605988",
+                      "eventGroupId": "79720",
+                      "label": "Hole 12 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197222936#1798705472_13L79720Q1-1042415507Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222936",
+                          "label": "Xander Schauffele",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Xander Schauffele",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798706472,
+                          "participants": [
+                            {
+                              "name": "Xander Schauffele",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197222936#1798705473_13L79720Q1-355906881Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197222936",
+                          "label": "Collin Morikawa",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Collin Morikawa",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798708473,
+                          "participants": [
+                            {
+                              "name": "Collin Morikawa",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    },
+                    {
+                      "providerOfferId": "197224026",
+                      "eventId": "30605988",
+                      "eventGroupId": "79720",
+                      "label": "Hole 13 Winner - Round 4",
+                      "isSuspended": false,
+                      "isOpen": true,
+                      "offerSubcategoryId": 11721,
+                      "isSubcategoryFeatured": true,
+                      "betOfferTypeId": 0,
+                      "providerCriterionId": "10157",
+                      "outcomes": [
+                        {
+                          "providerOutcomeId": "0QA197224026#1798709719_13L79720Q1-1042415507Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224026",
+                          "label": "Xander Schauffele",
+                          "oddsAmerican": "+100",
+                          "oddsDecimal": 2,
+                          "oddsDecimalDisplay": "2.00",
+                          "oddsFractional": "1/1",
+                          "participant": "Xander Schauffele",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798710719,
+                          "participants": [
+                            {
+                              "name": "Xander Schauffele",
+                              "type": "Team"
+                            }
+                          ]
+                        },
+                        {
+                          "providerOutcomeId": "0QA197224026#1798709720_13L79720Q1-355906881Q20",
+                          "providerId": 2,
+                          "providerOfferId": "197224026",
+                          "label": "Collin Morikawa",
+                          "oddsAmerican": "-130",
+                          "oddsDecimal": 1.76923077,
+                          "oddsDecimalDisplay": "1.76",
+                          "oddsFractional": "10/13",
+                          "participant": "Collin Morikawa",
+                          "participantType": "Unknown",
+                          "sortOrder": 1798712720,
+                          "participants": [
+                            {
+                              "name": "Collin Morikawa",
+                              "type": "Team"
+                            }
+                          ]
+                        }
+                      ],
+                      "offerSequence": 0,
+                      "source": "5",
+                      "displayGroupId": "12",
+                      "main": false,
+                      "tags": [
+                        "FeaturedSubcategory"
+                      ]
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "subcategoryId": 11733,
+              "name": "2 Ball Hole Winner (3 Way)"
+            },
+            {
+              "subcategoryId": 15278,
+              "name": "Live Hole Score "
+            }
+          ]
+        },
+        {
+          "offerCategoryId": 1129,
+          "name": "Round Props"
+        },
+        {
+          "offerCategoryId": 532,
+          "name": "Nationality Props"
+        }
+      ],
+      "events": [
+        {
+          "eventId": "30605978",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Rory McIlroy vs Tom Kim",
+          "nameIdentifier": "Rory McIlroy vs Tom Kim",
+          "startDate": "2024-05-19T16:45:00.0000000Z",
+          "teamName1": "Rory McIlroy",
+          "teamName2": "Tom Kim",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Rory McIlroy"
+          },
+          "team2": {
+            "name": "Tom Kim"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_14_7417",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946037",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:55:56.4603033Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605979",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Jordan Spieth vs Russell Henley",
+          "nameIdentifier": "Jordan Spieth vs Russell Henley",
+          "startDate": "2024-05-19T16:55:00.0000000Z",
+          "teamName1": "Jordan Spieth",
+          "teamName2": "Russell Henley",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Jordan Spieth"
+          },
+          "team2": {
+            "name": "Russell Henley"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_3874_3426",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946046",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:51:27.6435331Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605980",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Keegan Bradley vs Taylor Moore",
+          "nameIdentifier": "Keegan Bradley vs Taylor Moore",
+          "startDate": "2024-05-19T17:05:00.0000000Z",
+          "teamName1": "Keegan Bradley",
+          "teamName2": "Taylor Moore",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Keegan Bradley"
+          },
+          "team2": {
+            "name": "Taylor Moore"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_3884_8327",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946039",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:53:41.9942544Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605981",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Thomas Detry vs Lucas Herbert",
+          "nameIdentifier": "Thomas Detry vs Lucas Herbert",
+          "startDate": "2024-05-19T17:15:00.0000000Z",
+          "teamName1": "Thomas Detry",
+          "teamName2": "Lucas Herbert",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Thomas Detry"
+          },
+          "team2": {
+            "name": "Lucas Herbert"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_4_154",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946042",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:48:50.7266867Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605982",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Harris English vs Austin Eckroat",
+          "nameIdentifier": "Harris English vs Austin Eckroat",
+          "startDate": "2024-05-19T17:25:00.0000000Z",
+          "teamName1": "Harris English",
+          "teamName2": "Austin Eckroat",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Harris English"
+          },
+          "team2": {
+            "name": "Austin Eckroat"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_3987_7121",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946015",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:55:58.8543646Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605983",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Justin Thomas vs Tony Finau",
+          "nameIdentifier": "Justin Thomas vs Tony Finau",
+          "startDate": "2024-05-19T17:35:00.0000000Z",
+          "teamName1": "Justin Thomas",
+          "teamName2": "Tony Finau",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Justin Thomas"
+          },
+          "team2": {
+            "name": "Tony Finau"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_3782_3861",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946017",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:50:52.6626698Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605984",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Dean Burmester vs Lee Hodges",
+          "nameIdentifier": "Dean Burmester vs Lee Hodges",
+          "startDate": "2024-05-19T17:55:00.0000000Z",
+          "teamName1": "Dean Burmester",
+          "teamName2": "Lee Hodges",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Dean Burmester"
+          },
+          "team2": {
+            "name": "Lee Hodges"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_148_7654",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946033",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:52:46.7030181Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605985",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Justin Rose vs Robert MacIntyre",
+          "nameIdentifier": "Justin Rose vs Robert MacIntyre",
+          "startDate": "2024-05-19T18:05:00.0000000Z",
+          "teamName1": "Justin Rose",
+          "teamName2": "Robert MacIntyre",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Justin Rose"
+          },
+          "team2": {
+            "name": "Robert MacIntyre"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_467_209",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946048",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:55:29.0568913Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605986",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Bryson DeChambeau vs Viktor Hovland",
+          "nameIdentifier": "Bryson DeChambeau vs Viktor Hovland",
+          "startDate": "2024-05-19T18:15:00.0000000Z",
+          "teamName1": "Bryson DeChambeau",
+          "teamName2": "Viktor Hovland",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Bryson DeChambeau"
+          },
+          "team2": {
+            "name": "Viktor Hovland"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_387_3347",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946043",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:52:36.3391815Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605987",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Sahith Theegala vs Shane Lowry",
+          "nameIdentifier": "Sahith Theegala vs Shane Lowry",
+          "startDate": "2024-05-19T18:25:00.0000000Z",
+          "teamName1": "Sahith Theegala",
+          "teamName2": "Shane Lowry",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Sahith Theegala"
+          },
+          "team2": {
+            "name": "Shane Lowry"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_7320_120",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946038",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:56:06.0688779Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        },
+        {
+          "eventId": "30605988",
+          "displayGroupId": "12",
+          "eventGroupId": "79720",
+          "eventGroupName": "PGA Championship",
+          "name": "Xander Schauffele vs Collin Morikawa",
+          "nameIdentifier": "Xander Schauffele vs Collin Morikawa",
+          "startDate": "2024-05-19T18:35:00.0000000Z",
+          "teamName1": "Xander Schauffele",
+          "teamName2": "Collin Morikawa",
+          "teamShortName1": "",
+          "teamShortName2": "",
+          "team1": {
+            "name": "Xander Schauffele"
+          },
+          "team2": {
+            "name": "Collin Morikawa"
+          },
+          "eventStatus": {
+            "state": "NOT_STARTED",
+            "isClockDisabled": false,
+            "minute": 0,
+            "second": 0,
+            "isClockRunning": false
+          },
+          "eventScorecard": {
+            "scorecardComponentId": 0
+          },
+          "mediaList": [
+            {
+              "mediaProviderName": "IMG",
+              "mediaId": "834_4_518_3378",
+              "mediaTypeName": "MatchTracker",
+              "metadata": {
+                "groupId": "946018",
+                "imgCoverage": "L1",
+                "roundNumber": "4",
+                "tournamentId": "834"
+              },
+              "updatedAt": "2024-05-19T20:55:45.6094151Z"
+            }
+          ],
+          "liveBettingOffered": false,
+          "liveBettingEnabled": false,
+          "tags": [
+            "FeaturedSubcategory",
+            "MatchTracker"
+          ],
+          "flashBetOfferCount": 0,
+          "eventMetadata": {
+            "participantMetadata": {
+  
+            },
+            "mediaMetadata": {
+              "IMG_MatchTracker": {
+                "imgCoverage": "L1"
+              }
+            }
+          }
+        }
+      ],
+      "tags": [
+        "FeaturedSubcategory",
+        "MatchTracker"
+      ],
+      "nameIdentifier": "USPGA Championship"
+    }
+  }

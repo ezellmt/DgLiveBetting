@@ -1,0 +1,182 @@
+Datagolf Live Predictions
+https://feeds.datagolf.com/preds/in-play?tour=pga&dead_heat=no&odds_format=decimal&file_format=json&key=eb3da49107c8459d26a5f6527cc7
+
+Datagolf Live Stats
+https://feeds.datagolf.com/preds/live-tournament-stats?&round=event_avg&display=value&file_format=json&key=eb3da49107c8459d26a5f6527cc7
+
+
+DRAFTKINGS API JSON LINKS
+
+    Categories:
+        "offerCategoryId": 484,
+        "name": "Tournament Lines"
+        "offerCategoryId": 1172,
+        "name": "Live Hole Props"
+        "offerCategoryId": 531,
+        "name": "Matchups"
+        "offerCategoryId": 532,
+        "name": "Nationality Props"
+        "offerCategoryId": 533,
+        "name": "Tournament Props",
+
+
+
+
+
+
+        "eventGroupId": "79720",
+        "displayGroupId": "12",
+        "numberOfEventsToDisplay": 10,
+        "eventLookAheadHours": 0,
+        "subcategoryIds": [4508, 6022, 7339, 7812, 11539, 11720, 12066, 12684, 12696, 12745, 12746, 12768, 12903, 13236, 14419],
+        "isGamelinesDisabled": true,
+        "templateKey": "",
+        "widgetTemplateType": "",
+        "widgetKey": "e958f17e-9017-437d-a99d-f4c855e43ed9",
+        "zoneKey": "36e1e66c-5042-4a15-8767-0dcf5e8da1f4",
+        "zoneTitle": "Golf",
+        "widgetType": "League",
+        "title": "PGA Championship",
+        "startDate": "2023-04-12T18:44:55Z",
+        "endDate": "2024-05-20T15:59:00Z",
+        "rank": 1,
+        "isEnabled": true,
+
+(Best for Tournament Winner Lines, Top 20, etc. )
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720?format=json
+
+Live Tournament Winner (category) - 
+
+Subcategories
+Tournament Winner (subcategory): 4508, providerCriterionId: 8996 label = "Winner"
+Top 5 (subcategory): 4508, providerCriterionId: 8997 label = "Top 5"
+Top 10 (subcategory): 4508, providerCriterionId: 8998 label = "Top 10"
+Top 20 (subcategory): 12684
+
+Tournament Props (category) - 533 ("Tournament Props")
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720/categories/533?format=json
+
+Matchups (category) - 531 ("Matchups")
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720/categories/531?format=json
+
+Matchups (531): 18 Hole Matchups (subcategory) - 11392
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720/categories/531/subcategories/11392?format=json
+
+Nationality Props (category) - 532
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720/categories/532?format=json
+
+
+Live Hole Props (category) - 1172
+
+https://sportsbook-nash-ustn.draftkings.com/sites/US-TN-SB/api/v5/eventgroups/79720/categories/1172/subcategories/15278?format=json
+
+Subcategories:
+Hole Winner (2-Way): 11721
+Hole Winner (3-Way): 11718
+Live Score Winner: 15278
+
+Example: https://sportsbook.draftkings.com//sites/US-SB/api/v5/eventgroups/39887/categories/1172/subcategories/15278?format=json
+https://sportsbook.draftkings.com//sites/US-SB/api/v5/eventgroups/79720/categories/1172/subcategories/15278?format=json
+
+https://letzig.datagolf.com/live-model/get-main-data/mini
+
+
+Golf Player Names
+https://l10n.frs-prod.imgarena.dev/locales/en/golf-player-names.json
+
+
+App.py working code as of 5/15 @ 4:17
+
+import dash
+from dash import Dash, dcc, html, Input, Output
+import dash_bootstrap_components as dbc
+import plotly.express as px
+import data_import
+
+# Initialize the Dash app
+app = Dash(__name__, external_stylesheets=[dbc.themes.PULSE])
+
+# Load data
+holes_data, odds_data = data_import.load_data('dgscoreresults.json', 'liveholebetting.json')
+holesdf = data_import.create_holes_df(holes_data)
+flattened_data_odds = data_import.flatten_odds_data(odds_data)
+oddsdf = data_import.create_odds_df(flattened_data_odds)
+
+# Merge oddsdf and holesdf on round_num and hole
+merged_df = data_import.merge_data(holesdf, oddsdf)
+
+app.layout = html.Div([
+    html.H1("PGA Tour Dashboard"),
+    dcc.Tabs(id='tabs-example', value='tab-1', children=[
+        dcc.Tab(label='Live Betting', value='tab-1'),
+        dcc.Tab(label='Score Results', value='tab-2'),
+    ]),
+    html.Div(id='tabs-content-example')
+])
+
+@app.callback(Output('tabs-content-example', 'children'),
+              [Input('tabs-example', 'value')])
+def render_content(tab):
+    if tab == 'tab-1':
+        fig = px.line(oddsdf, x='round_num', y='oddsDecimal', color='participant', title='Live Betting Data')
+        return html.Div([
+            html.H3('Live Betting Data'),
+            dcc.Graph(figure=fig)
+        ])
+    elif tab == 'tab-2':
+        fig = px.bar(holesdf, x='hole', y='total_avg_score', color='round_num', title='Score Results Data')
+        return html.Div([
+            html.H3('Score Results Data'),
+            dcc.Graph(figure=fig)
+        ])
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
+
+
+LIVE HOLE SCORE code
+
+# pages/live_betting/live_hole_score.py
+
+import dash
+from dash import html
+import dash_ag_grid as dag
+import pandas as pd
+from sqlalchemy import create_engine
+import config
+from layout_core import create_layout_with_sidebar
+
+dash.register_page(__name__, path_template='/live_betting/live_hole_score')
+
+def fetch_live_hole_score_data():
+    engine = create_engine(f'postgresql://{config.DB_CONFIG["user"]}:{config.DB_CONFIG["password"]}@{config.DB_CONFIG["host"]}:{config.DB_CONFIG["port"]}/{config.DB_CONFIG["database"]}')
+    query = 'SELECT "hole", "participant", "label", "oddsAmerican", "implied_probability" FROM "odds_data"'
+    df = pd.read_sql_query(query, engine)
+    return df
+
+def layout(pathname):
+    page_specific_content = html.Div([
+        html.H2("Live Hole Score"),
+        dag.AgGrid(
+            id='live-hole-score-table',
+            columnDefs=[
+                {'headerName': 'Hole', 'field': 'hole', 'sortable': True, 'filter': False, 'minWidth': 70, 'maxWidth': 85},
+                {'headerName': 'Participant', 'field': 'participant', 'sortable': True, 'filter': False, 'minWidth': 120, 'maxWidth': 150},
+                {'headerName': 'Label', 'field': 'label', 'sortable': True, 'filter': False, 'minWidth': 100, 'maxWidth': 140},
+                {'headerName': 'Odds', 'field': 'oddsAmerican', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
+                {'headerName': 'Implied Probability', 'field': 'implied_probability', 'sortable': True, 'filter': False, 'minWidth': 140, 'maxWidth': 180},
+            ],
+            rowData=fetch_live_hole_score_data().to_dict('records'),
+            defaultColDef={
+                'sortable': True,
+                'resizable': True,
+                'filter': False,
+                'floatingFilter': False,
+                'flex': 1
+            },
+            className="ag-theme-quartz",
+            style={'height': '600px', 'width': '100%', 'fontFamily': 'Roboto'}
+        )
+    ])
+
+    return create_layout_with_sidebar(page_specific_content, html.Div(), pathname)

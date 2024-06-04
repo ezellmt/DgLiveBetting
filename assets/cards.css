@@ -1,0 +1,52 @@
+/* assets/cards.css */
+
+:root {
+    --card-background-color: white;
+    --card-border-color: #ddd;
+    --card-text-color: black;
+    --card-footer-color: #888;
+    --box-background-color: #f9f9f9;
+    --box-border-color: #ccc;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: var(--card-background-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 10px var(--box-shadow-color);
+    text-align: center;
+    color: var(--card-text-color);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card-content {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card-footer {
+    font-size: 14px;
+    color: var(--card-footer-color);
+}
+
+.top-bets-box {
+    border: 1px solid var(--box-border-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: var(--box-background-color);
+}

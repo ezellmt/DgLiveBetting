@@ -1,0 +1,4518 @@
+{
+  "eventGroup": {
+    "eventGroupId": "44878",
+    "displayGroupId": "12",
+    "name": "RBC Canadian Open",
+    "offerCategories": [
+      {
+        "offerCategoryId": 484,
+        "name": "Tournament Lines"
+      },
+      {
+        "offerCategoryId": 1172,
+        "name": "Live Hole Props",
+        "offerSubcategoryDescriptors": [
+          {
+            "subcategoryId": 11721,
+            "name": "Hole Winner (2-Way)"
+          },
+          {
+            "subcategoryId": 11733,
+            "name": "2 Ball Hole Winner (3 Way)",
+            "offerSubcategory": {
+              "name": "2 Ball Hole Winner (3 Way)",
+              "subcategoryId": 11733,
+              "componentId": 30,
+              "offers": [
+                [
+                  {
+                    "providerOfferId": "199069120",
+                    "eventId": "30660479",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069120#1807791777_13L44878Q1-1515645262Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069120",
+                        "label": "Zac Blair",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807792777
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069120#1807791778_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069120",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807793778
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069120#1807791776_13L44878Q1505079632Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069120",
+                        "label": "David Skinns",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794776
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199069645",
+                    "eventId": "30660480",
+                    "eventGroupId": "44878",
+                    "label": "Hole 17 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069645#1807793425_13L44878Q1-2038354520Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069645",
+                        "label": "Pierceson Coody",
+                        "oddsAmerican": "+220",
+                        "oddsDecimal": 3.2,
+                        "oddsDecimalDisplay": "3.20",
+                        "oddsFractional": "11/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794425
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069645#1807793426_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069645",
+                        "label": "Tie",
+                        "oddsAmerican": "+115",
+                        "oddsDecimal": 2.15,
+                        "oddsDecimalDisplay": "2.15",
+                        "oddsFractional": "23/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795426
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069645#1807793427_13L44878Q1-1220973796Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069645",
+                        "label": "Erik Van Rooyen",
+                        "oddsAmerican": "+180",
+                        "oddsDecimal": 2.8,
+                        "oddsDecimalDisplay": "2.80",
+                        "oddsFractional": "9/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796427
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071274",
+                    "eventId": "30660480",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071274#1807798491_13L44878Q1-2038354520Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071274",
+                        "label": "Pierceson Coody",
+                        "oddsAmerican": "+245",
+                        "oddsDecimal": 3.45,
+                        "oddsDecimalDisplay": "3.45",
+                        "oddsFractional": "49/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799491
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071274#1807798489_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071274",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800489
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071274#1807798490_13L44878Q1-1220973796Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071274",
+                        "label": "Erik Van Rooyen",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801490
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199070734",
+                    "eventId": "30660481",
+                    "eventGroupId": "44878",
+                    "label": "Hole 17 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199070734#1807796837_13L44878Q1-1606122095Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070734",
+                        "label": "Tyler Duncan",
+                        "oddsAmerican": "+205",
+                        "oddsDecimal": 3.05,
+                        "oddsDecimalDisplay": "3.05",
+                        "oddsFractional": "41/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797837
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070734#1807796839_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070734",
+                        "label": "Tie",
+                        "oddsAmerican": "+115",
+                        "oddsDecimal": 2.15,
+                        "oddsDecimalDisplay": "2.15",
+                        "oddsFractional": "23/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798839
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070734#1807796838_13L44878Q11162913603Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070734",
+                        "label": "Vince Whaley",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799838
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072537",
+                    "eventId": "30660481",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072537#1807802358_13L44878Q1-1606122095Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072537",
+                        "label": "Tyler Duncan",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803358
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072537#1807802360_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072537",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804360
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072537#1807802359_13L44878Q11162913603Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072537",
+                        "label": "Vince Whaley",
+                        "oddsAmerican": "+235",
+                        "oddsDecimal": 3.35,
+                        "oddsDecimalDisplay": "3.35",
+                        "oddsFractional": "47/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805359
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199070636",
+                    "eventId": "30660482",
+                    "eventGroupId": "44878",
+                    "label": "Hole 16 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199070636#1807796538_13L44878Q1-528889094Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070636",
+                        "label": "Sean O'Hair",
+                        "oddsAmerican": "+340",
+                        "oddsDecimal": 4.4,
+                        "oddsDecimalDisplay": "4.40",
+                        "oddsFractional": "17/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797538
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070636#1807796537_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070636",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798537
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070636#1807796539_13L44878Q12051687605Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070636",
+                        "label": "Beau Hossler",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799539
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072012",
+                    "eventId": "30660482",
+                    "eventGroupId": "44878",
+                    "label": "Hole 17 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072012#1807800775_13L44878Q1-528889094Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072012",
+                        "label": "Sean O'Hair",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801775
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072012#1807800774_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072012",
+                        "label": "Tie",
+                        "oddsAmerican": "+115",
+                        "oddsDecimal": 2.15,
+                        "oddsDecimalDisplay": "2.15",
+                        "oddsFractional": "23/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802774
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072012#1807800773_13L44878Q12051687605Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072012",
+                        "label": "Beau Hossler",
+                        "oddsAmerican": "+180",
+                        "oddsDecimal": 2.8,
+                        "oddsDecimalDisplay": "2.80",
+                        "oddsFractional": "9/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803773
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073392",
+                    "eventId": "30660482",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073392#1807805017_13L44878Q1-528889094Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073392",
+                        "label": "Sean O'Hair",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806017
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073392#1807805016_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073392",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807016
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073392#1807805015_13L44878Q12051687605Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073392",
+                        "label": "Beau Hossler",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808015
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199070223",
+                    "eventId": "30660483",
+                    "eventGroupId": "44878",
+                    "label": "Hole 15 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199070223#1807795280_13L44878Q1967050019Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070223",
+                        "label": "Jacob Bridgeman",
+                        "oddsAmerican": "+220",
+                        "oddsDecimal": 3.2,
+                        "oddsDecimalDisplay": "3.20",
+                        "oddsFractional": "11/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796280
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070223#1807795281_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070223",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797281
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070223#1807795279_13L44878Q11573263300Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070223",
+                        "label": "Nick Hardy",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798279
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071912",
+                    "eventId": "30660483",
+                    "eventGroupId": "44878",
+                    "label": "Hole 16 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071912#1807800441_13L44878Q1967050019Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071912",
+                        "label": "Jacob Bridgeman",
+                        "oddsAmerican": "+295",
+                        "oddsDecimal": 3.95,
+                        "oddsDecimalDisplay": "3.95",
+                        "oddsFractional": "59/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801441
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071912#1807800442_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071912",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802442
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071912#1807800440_13L44878Q11573263300Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071912",
+                        "label": "Nick Hardy",
+                        "oddsAmerican": "+310",
+                        "oddsDecimal": 4.1,
+                        "oddsDecimalDisplay": "4.10",
+                        "oddsFractional": "31/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803440
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073294",
+                    "eventId": "30660483",
+                    "eventGroupId": "44878",
+                    "label": "Hole 17 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073294#1807804732_13L44878Q1967050019Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073294",
+                        "label": "Jacob Bridgeman",
+                        "oddsAmerican": "+200",
+                        "oddsDecimal": 3,
+                        "oddsDecimalDisplay": "3.00",
+                        "oddsFractional": "2/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805732
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073294#1807804733_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073294",
+                        "label": "Tie",
+                        "oddsAmerican": "+120",
+                        "oddsDecimal": 2.2,
+                        "oddsDecimalDisplay": "2.20",
+                        "oddsFractional": "6/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806733
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073294#1807804731_13L44878Q11573263300Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073294",
+                        "label": "Nick Hardy",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807731
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199075097",
+                    "eventId": "30660483",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199075097#1807810499_13L44878Q1967050019Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075097",
+                        "label": "Jacob Bridgeman",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811499
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075097#1807810500_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075097",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812500
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075097#1807810498_13L44878Q11573263300Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075097",
+                        "label": "Nick Hardy",
+                        "oddsAmerican": "+235",
+                        "oddsDecimal": 3.35,
+                        "oddsDecimalDisplay": "3.35",
+                        "oddsFractional": "47/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813498
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199069283",
+                    "eventId": "30660484",
+                    "eventGroupId": "44878",
+                    "label": "Hole 14 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069283#1807792262_13L44878Q11896889233Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069283",
+                        "label": "Maverick McNealy",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807793262
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069283#1807792263_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069283",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794263
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069283#1807792261_13L44878Q1-497109222Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069283",
+                        "label": "Michael Kim",
+                        "oddsAmerican": "+285",
+                        "oddsDecimal": 3.85,
+                        "oddsDecimalDisplay": "3.85",
+                        "oddsFractional": "57/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795261
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071117",
+                    "eventId": "30660484",
+                    "eventGroupId": "44878",
+                    "label": "Hole 15 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071117#1807797993_13L44878Q11896889233Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071117",
+                        "label": "Maverick McNealy",
+                        "oddsAmerican": "+200",
+                        "oddsDecimal": 3,
+                        "oddsDecimalDisplay": "3.00",
+                        "oddsFractional": "2/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798993
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071117#1807797991_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071117",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799991
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071117#1807797992_13L44878Q1-497109222Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071117",
+                        "label": "Michael Kim",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800992
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072671",
+                    "eventId": "30660484",
+                    "eventGroupId": "44878",
+                    "label": "Hole 16 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072671#1807802783_13L44878Q11896889233Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072671",
+                        "label": "Maverick McNealy",
+                        "oddsAmerican": "+275",
+                        "oddsDecimal": 3.75,
+                        "oddsDecimalDisplay": "3.75",
+                        "oddsFractional": "11/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803783
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072671#1807802784_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072671",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804784
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072671#1807802785_13L44878Q1-497109222Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072671",
+                        "label": "Michael Kim",
+                        "oddsAmerican": "+330",
+                        "oddsDecimal": 4.3,
+                        "oddsDecimalDisplay": "4.30",
+                        "oddsFractional": "33/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805785
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199074353",
+                    "eventId": "30660484",
+                    "eventGroupId": "44878",
+                    "label": "Hole 17 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199074353#1807808124_13L44878Q11896889233Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074353",
+                        "label": "Maverick McNealy",
+                        "oddsAmerican": "+175",
+                        "oddsDecimal": 2.75,
+                        "oddsDecimalDisplay": "2.75",
+                        "oddsFractional": "7/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807809124
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074353#1807808122_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074353",
+                        "label": "Tie",
+                        "oddsAmerican": "+115",
+                        "oddsDecimal": 2.15,
+                        "oddsDecimalDisplay": "2.15",
+                        "oddsFractional": "23/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807810122
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074353#1807808123_13L44878Q1-497109222Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074353",
+                        "label": "Michael Kim",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811123
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199076003",
+                    "eventId": "30660484",
+                    "eventGroupId": "44878",
+                    "label": "Hole 18 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199076003#1807813966_13L44878Q11896889233Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076003",
+                        "label": "Maverick McNealy",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807814966
+                      },
+                      {
+                        "providerOutcomeId": "0QA199076003#1807813967_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076003",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807815967
+                      },
+                      {
+                        "providerOutcomeId": "0QA199076003#1807813965_13L44878Q1-497109222Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076003",
+                        "label": "Michael Kim",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807816965
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199065323",
+                    "eventId": "30660485",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199065323#1807777008_13L44878Q11745687053Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199065323",
+                        "label": "Sam Stevens",
+                        "oddsAmerican": "+320",
+                        "oddsDecimal": 4.2,
+                        "oddsDecimalDisplay": "4.20",
+                        "oddsFractional": "16/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807778008
+                      },
+                      {
+                        "providerOutcomeId": "0QA199065323#1807777009_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199065323",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807779009
+                      },
+                      {
+                        "providerOutcomeId": "0QA199065323#1807777007_13L44878Q1-1547279043Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199065323",
+                        "label": "Matt Wallace",
+                        "oddsAmerican": "+295",
+                        "oddsDecimal": 3.95,
+                        "oddsDecimalDisplay": "3.95",
+                        "oddsFractional": "59/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807780007
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071279",
+                    "eventId": "30660485",
+                    "eventGroupId": "44878",
+                    "label": "Hole 14 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071279#1807798503_13L44878Q11745687053Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071279",
+                        "label": "Sam Stevens",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799503
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071279#1807798504_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071279",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800504
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071279#1807798502_13L44878Q1-1547279043Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071279",
+                        "label": "Matt Wallace",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801502
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073139",
+                    "eventId": "30660485",
+                    "eventGroupId": "44878",
+                    "label": "Hole 15 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073139#1807804253_13L44878Q11745687053Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073139",
+                        "label": "Sam Stevens",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805253
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073139#1807804254_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073139",
+                        "label": "Tie",
+                        "oddsAmerican": "-110",
+                        "oddsDecimal": 1.90909091,
+                        "oddsDecimalDisplay": "1.90",
+                        "oddsFractional": "10/11",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806254
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073139#1807804252_13L44878Q1-1547279043Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073139",
+                        "label": "Matt Wallace",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807252
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199074788",
+                    "eventId": "30660485",
+                    "eventGroupId": "44878",
+                    "label": "Hole 16 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199074788#1807809496_13L44878Q11745687053Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074788",
+                        "label": "Sam Stevens",
+                        "oddsAmerican": "+310",
+                        "oddsDecimal": 4.1,
+                        "oddsDecimalDisplay": "4.10",
+                        "oddsFractional": "31/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807810496
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074788#1807809497_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074788",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811497
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074788#1807809498_13L44878Q1-1547279043Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074788",
+                        "label": "Matt Wallace",
+                        "oddsAmerican": "+295",
+                        "oddsDecimal": 3.95,
+                        "oddsDecimalDisplay": "3.95",
+                        "oddsFractional": "59/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812498
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199069554",
+                    "eventId": "30660486",
+                    "eventGroupId": "44878",
+                    "label": "Hole 12 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069554#1807793070_13L44878Q1499429784Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069554",
+                        "label": "Carson Young",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794070
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069554#1807793071_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069554",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795071
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069554#1807793069_13L44878Q1714195384Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069554",
+                        "label": "Keith Mitchell",
+                        "oddsAmerican": "+185",
+                        "oddsDecimal": 2.85,
+                        "oddsDecimalDisplay": "2.85",
+                        "oddsFractional": "37/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796069
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199068027",
+                    "eventId": "30660486",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199068027#1807788382_13L44878Q1499429784Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068027",
+                        "label": "Carson Young",
+                        "oddsAmerican": "+330",
+                        "oddsDecimal": 4.3,
+                        "oddsDecimalDisplay": "4.30",
+                        "oddsFractional": "33/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807789382
+                      },
+                      {
+                        "providerOutcomeId": "0QA199068027#1807788383_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068027",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807790383
+                      },
+                      {
+                        "providerOutcomeId": "0QA199068027#1807788381_13L44878Q1714195384Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068027",
+                        "label": "Keith Mitchell",
+                        "oddsAmerican": "+270",
+                        "oddsDecimal": 3.7,
+                        "oddsDecimalDisplay": "3.70",
+                        "oddsFractional": "27/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807791381
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072935",
+                    "eventId": "30660486",
+                    "eventGroupId": "44878",
+                    "label": "Hole 14 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072935#1807803591_13L44878Q1499429784Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072935",
+                        "label": "Carson Young",
+                        "oddsAmerican": "+285",
+                        "oddsDecimal": 3.85,
+                        "oddsDecimalDisplay": "3.85",
+                        "oddsFractional": "57/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804591
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072935#1807803589_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072935",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805589
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072935#1807803590_13L44878Q1714195384Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072935",
+                        "label": "Keith Mitchell",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806590
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199075064",
+                    "eventId": "30660486",
+                    "eventGroupId": "44878",
+                    "label": "Hole 15 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199075064#1807810391_13L44878Q1499429784Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075064",
+                        "label": "Carson Young",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811391
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075064#1807810392_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075064",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812392
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075064#1807810390_13L44878Q1714195384Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075064",
+                        "label": "Keith Mitchell",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813390
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199069872",
+                    "eventId": "30660487",
+                    "eventGroupId": "44878",
+                    "label": "Hole 11 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069872#1807794106_13L44878Q1435511244Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069872",
+                        "label": "Taylor Pendrith",
+                        "oddsAmerican": "+175",
+                        "oddsDecimal": 2.75,
+                        "oddsDecimalDisplay": "2.75",
+                        "oddsFractional": "7/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795106
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069872#1807794105_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069872",
+                        "label": "Tie",
+                        "oddsAmerican": "+125",
+                        "oddsDecimal": 2.25,
+                        "oddsDecimalDisplay": "2.25",
+                        "oddsFractional": "5/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796105
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069872#1807794104_13L44878Q1-1362177785Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069872",
+                        "label": "Chad Ramey",
+                        "oddsAmerican": "+220",
+                        "oddsDecimal": 3.2,
+                        "oddsDecimalDisplay": "3.20",
+                        "oddsFractional": "11/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797104
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071216",
+                    "eventId": "30660487",
+                    "eventGroupId": "44878",
+                    "label": "Hole 12 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071216#1807798315_13L44878Q1435511244Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071216",
+                        "label": "Taylor Pendrith",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799315
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071216#1807798314_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071216",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800314
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071216#1807798316_13L44878Q1-1362177785Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071216",
+                        "label": "Chad Ramey",
+                        "oddsAmerican": "+235",
+                        "oddsDecimal": 3.35,
+                        "oddsDecimalDisplay": "3.35",
+                        "oddsFractional": "47/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801316
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199069868",
+                    "eventId": "30660487",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069868#1807794101_13L44878Q1435511244Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069868",
+                        "label": "Taylor Pendrith",
+                        "oddsAmerican": "+275",
+                        "oddsDecimal": 3.75,
+                        "oddsDecimalDisplay": "3.75",
+                        "oddsFractional": "11/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795101
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069868#1807794103_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069868",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796103
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069868#1807794102_13L44878Q1-1362177785Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069868",
+                        "label": "Chad Ramey",
+                        "oddsAmerican": "+320",
+                        "oddsDecimal": 4.2,
+                        "oddsDecimalDisplay": "4.20",
+                        "oddsFractional": "16/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797102
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199074424",
+                    "eventId": "30660487",
+                    "eventGroupId": "44878",
+                    "label": "Hole 14 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199074424#1807808393_13L44878Q1435511244Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074424",
+                        "label": "Taylor Pendrith",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807809393
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074424#1807808395_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074424",
+                        "label": "Tie",
+                        "oddsAmerican": "-125",
+                        "oddsDecimal": 1.8,
+                        "oddsDecimalDisplay": "1.80",
+                        "oddsFractional": "4/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807810395
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074424#1807808394_13L44878Q1-1362177785Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074424",
+                        "label": "Chad Ramey",
+                        "oddsAmerican": "+270",
+                        "oddsDecimal": 3.7,
+                        "oddsDecimalDisplay": "3.70",
+                        "oddsFractional": "27/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811394
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199069071",
+                    "eventId": "30660488",
+                    "eventGroupId": "44878",
+                    "label": "Hole 10 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069071#1807791645_13L44878Q1-346641999Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069071",
+                        "label": "Corey Conners",
+                        "oddsAmerican": "+205",
+                        "oddsDecimal": 3.05,
+                        "oddsDecimalDisplay": "3.05",
+                        "oddsFractional": "41/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807792645
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069071#1807791647_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069071",
+                        "label": "Tie",
+                        "oddsAmerican": "-110",
+                        "oddsDecimal": 1.90909091,
+                        "oddsDecimalDisplay": "1.90",
+                        "oddsFractional": "10/11",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807793647
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069071#1807791646_13L44878Q11562527672Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069071",
+                        "label": "Andrew Novak",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794646
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071271",
+                    "eventId": "30660488",
+                    "eventGroupId": "44878",
+                    "label": "Hole 11 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071271#1807798481_13L44878Q1-346641999Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071271",
+                        "label": "Corey Conners",
+                        "oddsAmerican": "+170",
+                        "oddsDecimal": 2.7,
+                        "oddsDecimalDisplay": "2.70",
+                        "oddsFractional": "17/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799481
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071271#1807798483_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071271",
+                        "label": "Tie",
+                        "oddsAmerican": "+125",
+                        "oddsDecimal": 2.25,
+                        "oddsDecimalDisplay": "2.25",
+                        "oddsFractional": "5/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800483
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071271#1807798482_13L44878Q11562527672Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071271",
+                        "label": "Andrew Novak",
+                        "oddsAmerican": "+220",
+                        "oddsDecimal": 3.2,
+                        "oddsDecimalDisplay": "3.20",
+                        "oddsFractional": "11/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801482
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072158",
+                    "eventId": "30660488",
+                    "eventGroupId": "44878",
+                    "label": "Hole 12 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072158#1807801199_13L44878Q1-346641999Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072158",
+                        "label": "Corey Conners",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802199
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072158#1807801201_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072158",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803201
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072158#1807801200_13L44878Q11562527672Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072158",
+                        "label": "Andrew Novak",
+                        "oddsAmerican": "+240",
+                        "oddsDecimal": 3.4,
+                        "oddsDecimalDisplay": "3.40",
+                        "oddsFractional": "12/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804200
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071263",
+                    "eventId": "30660488",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071263#1807798464_13L44878Q1-346641999Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071263",
+                        "label": "Corey Conners",
+                        "oddsAmerican": "+275",
+                        "oddsDecimal": 3.75,
+                        "oddsDecimalDisplay": "3.75",
+                        "oddsFractional": "11/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799464
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071263#1807798466_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071263",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800466
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071263#1807798465_13L44878Q11562527672Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071263",
+                        "label": "Andrew Novak",
+                        "oddsAmerican": "+330",
+                        "oddsDecimal": 4.3,
+                        "oddsDecimalDisplay": "4.30",
+                        "oddsFractional": "33/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801465
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199076056",
+                    "eventId": "30660488",
+                    "eventGroupId": "44878",
+                    "label": "Hole 14 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199076056#1807814127_13L44878Q1-346641999Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076056",
+                        "label": "Corey Conners",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807815127
+                      },
+                      {
+                        "providerOutcomeId": "0QA199076056#1807814129_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076056",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807816129
+                      },
+                      {
+                        "providerOutcomeId": "0QA199076056#1807814128_13L44878Q11562527672Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199076056",
+                        "label": "Andrew Novak",
+                        "oddsAmerican": "+285",
+                        "oddsDecimal": 3.85,
+                        "oddsDecimalDisplay": "3.85",
+                        "oddsFractional": "57/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807817128
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199070155",
+                    "eventId": "30660489",
+                    "eventGroupId": "44878",
+                    "label": "Hole 10 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199070155#1807795069_13L44878Q1-364320249Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070155",
+                        "label": "Tom Kim",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796069
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070155#1807795070_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070155",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797070
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070155#1807795071_13L44878Q11841481153Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070155",
+                        "label": "Rory McIlroy",
+                        "oddsAmerican": "+185",
+                        "oddsDecimal": 2.85,
+                        "oddsDecimalDisplay": "2.85",
+                        "oddsFractional": "37/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798071
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072289",
+                    "eventId": "30660489",
+                    "eventGroupId": "44878",
+                    "label": "Hole 11 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072289#1807801622_13L44878Q1-364320249Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072289",
+                        "label": "Tom Kim",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802622
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072289#1807801623_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072289",
+                        "label": "Tie",
+                        "oddsAmerican": "+130",
+                        "oddsDecimal": 2.3,
+                        "oddsDecimalDisplay": "2.30",
+                        "oddsFractional": "13/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803623
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072289#1807801621_13L44878Q11841481153Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072289",
+                        "label": "Rory McIlroy",
+                        "oddsAmerican": "+160",
+                        "oddsDecimal": 2.6,
+                        "oddsDecimalDisplay": "2.60",
+                        "oddsFractional": "8/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804621
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073291",
+                    "eventId": "30660489",
+                    "eventGroupId": "44878",
+                    "label": "Hole 12 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073291#1807804725_13L44878Q1-364320249Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073291",
+                        "label": "Tom Kim",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807805725
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073291#1807804726_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073291",
+                        "label": "Tie",
+                        "oddsAmerican": "+105",
+                        "oddsDecimal": 2.05,
+                        "oddsDecimalDisplay": "2.05",
+                        "oddsFractional": "21/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806726
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073291#1807804724_13L44878Q11841481153Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073291",
+                        "label": "Rory McIlroy",
+                        "oddsAmerican": "+175",
+                        "oddsDecimal": 2.75,
+                        "oddsDecimalDisplay": "2.75",
+                        "oddsFractional": "7/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807724
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072283",
+                    "eventId": "30660489",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072283#1807801601_13L44878Q1-364320249Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072283",
+                        "label": "Tom Kim",
+                        "oddsAmerican": "+350",
+                        "oddsDecimal": 4.5,
+                        "oddsDecimalDisplay": "4.50",
+                        "oddsFractional": "7/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802601
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072283#1807801602_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072283",
+                        "label": "Tie",
+                        "oddsAmerican": "-170",
+                        "oddsDecimal": 1.5882353,
+                        "oddsDecimalDisplay": "1.58",
+                        "oddsFractional": "10/17",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803602
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072283#1807801603_13L44878Q11841481153Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072283",
+                        "label": "Rory McIlroy",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804603
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199071016",
+                    "eventId": "30660490",
+                    "eventGroupId": "44878",
+                    "label": "Hole 9 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071016#1807797693_13L44878Q1333052408Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071016",
+                        "label": "Victor Perez",
+                        "oddsAmerican": "+255",
+                        "oddsDecimal": 3.55,
+                        "oddsDecimalDisplay": "3.55",
+                        "oddsFractional": "51/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798693
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071016#1807797694_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071016",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799694
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071016#1807797692_13L44878Q11337665933Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071016",
+                        "label": "Aaron Rai",
+                        "oddsAmerican": "+200",
+                        "oddsDecimal": 3,
+                        "oddsDecimalDisplay": "3.00",
+                        "oddsFractional": "2/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800692
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072228",
+                    "eventId": "30660490",
+                    "eventGroupId": "44878",
+                    "label": "Hole 10 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072228#1807801421_13L44878Q1333052408Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072228",
+                        "label": "Victor Perez",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802421
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072228#1807801422_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072228",
+                        "label": "Tie",
+                        "oddsAmerican": "-110",
+                        "oddsDecimal": 1.90909091,
+                        "oddsDecimalDisplay": "1.90",
+                        "oddsFractional": "10/11",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803422
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072228#1807801420_13L44878Q11337665933Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072228",
+                        "label": "Aaron Rai",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804420
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073957",
+                    "eventId": "30660490",
+                    "eventGroupId": "44878",
+                    "label": "Hole 11 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073957#1807806754_13L44878Q1333052408Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073957",
+                        "label": "Victor Perez",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807754
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073957#1807806755_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073957",
+                        "label": "Tie",
+                        "oddsAmerican": "+125",
+                        "oddsDecimal": 2.25,
+                        "oddsDecimalDisplay": "2.25",
+                        "oddsFractional": "5/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808755
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073957#1807806753_13L44878Q11337665933Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073957",
+                        "label": "Aaron Rai",
+                        "oddsAmerican": "+170",
+                        "oddsDecimal": 2.7,
+                        "oddsDecimalDisplay": "2.70",
+                        "oddsFractional": "17/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807809753
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199075041",
+                    "eventId": "30660490",
+                    "eventGroupId": "44878",
+                    "label": "Hole 12 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199075041#1807810311_13L44878Q1333052408Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075041",
+                        "label": "Victor Perez",
+                        "oddsAmerican": "+245",
+                        "oddsDecimal": 3.45,
+                        "oddsDecimalDisplay": "3.45",
+                        "oddsFractional": "49/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811311
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075041#1807810312_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075041",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812312
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075041#1807810310_13L44878Q11337665933Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075041",
+                        "label": "Aaron Rai",
+                        "oddsAmerican": "+205",
+                        "oddsDecimal": 3.05,
+                        "oddsDecimalDisplay": "3.05",
+                        "oddsFractional": "41/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813310
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073958",
+                    "eventId": "30660490",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073958#1807806756_13L44878Q1333052408Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073958",
+                        "label": "Victor Perez",
+                        "oddsAmerican": "+350",
+                        "oddsDecimal": 4.5,
+                        "oddsDecimalDisplay": "4.50",
+                        "oddsFractional": "7/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807756
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073958#1807806757_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073958",
+                        "label": "Tie",
+                        "oddsAmerican": "-180",
+                        "oddsDecimal": 1.55555556,
+                        "oddsDecimalDisplay": "1.55",
+                        "oddsFractional": "5/9",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808757
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073958#1807806758_13L44878Q11337665933Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073958",
+                        "label": "Aaron Rai",
+                        "oddsAmerican": "+280",
+                        "oddsDecimal": 3.8,
+                        "oddsDecimalDisplay": "3.80",
+                        "oddsFractional": "14/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807809758
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199067614",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 7 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199067614#1807787110_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067614",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+240",
+                        "oddsDecimal": 3.4,
+                        "oddsDecimalDisplay": "3.40",
+                        "oddsFractional": "12/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807788110
+                      },
+                      {
+                        "providerOutcomeId": "0QA199067614#1807787111_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067614",
+                        "label": "Tie",
+                        "oddsAmerican": "-115",
+                        "oddsDecimal": 1.86956522,
+                        "oddsDecimalDisplay": "1.86",
+                        "oddsFractional": "20/23",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807789111
+                      },
+                      {
+                        "providerOutcomeId": "0QA199067614#1807787109_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067614",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+235",
+                        "oddsDecimal": 3.35,
+                        "oddsDecimalDisplay": "3.35",
+                        "oddsFractional": "47/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807790109
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199070168",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 8 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199070168#1807795114_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070168",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796114
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070168#1807795115_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070168",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797115
+                      },
+                      {
+                        "providerOutcomeId": "0QA199070168#1807795113_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199070168",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807798113
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072416",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 9 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072416#1807801996_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072416",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+220",
+                        "oddsDecimal": 3.2,
+                        "oddsDecimalDisplay": "3.20",
+                        "oddsFractional": "11/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802996
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072416#1807801997_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072416",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803997
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072416#1807801995_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072416",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804995
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073924",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 10 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073924#1807806644_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073924",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807644
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073924#1807806645_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073924",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808645
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073924#1807806643_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073924",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807809643
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199075765",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 11 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199075765#1807812886_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075765",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+195",
+                        "oddsDecimal": 2.95,
+                        "oddsDecimalDisplay": "2.95",
+                        "oddsFractional": "39/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813886
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075765#1807812887_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075765",
+                        "label": "Tie",
+                        "oddsAmerican": "+130",
+                        "oddsDecimal": 2.3,
+                        "oddsDecimalDisplay": "2.30",
+                        "oddsFractional": "13/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807814887
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075765#1807812885_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075765",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+185",
+                        "oddsDecimal": 2.85,
+                        "oddsDecimalDisplay": "2.85",
+                        "oddsFractional": "37/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807815885
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199075769",
+                    "eventId": "30660491",
+                    "eventGroupId": "44878",
+                    "label": "Hole 13 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199075769#1807812895_13L44878Q1-1340767689Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075769",
+                        "label": "Trace Crowe",
+                        "oddsAmerican": "+295",
+                        "oddsDecimal": 3.95,
+                        "oddsDecimalDisplay": "3.95",
+                        "oddsFractional": "59/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813895
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075769#1807812896_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075769",
+                        "label": "Tie",
+                        "oddsAmerican": "-155",
+                        "oddsDecimal": 1.6451613,
+                        "oddsDecimalDisplay": "1.64",
+                        "oddsFractional": "20/31",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807814896
+                      },
+                      {
+                        "providerOutcomeId": "0QA199075769#1807812897_13L44878Q1-1182852059Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199075769",
+                        "label": "Joel Dahmen",
+                        "oddsAmerican": "+275",
+                        "oddsDecimal": 3.75,
+                        "oddsDecimalDisplay": "3.75",
+                        "oddsFractional": "11/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807815897
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199068865",
+                    "eventId": "30660492",
+                    "eventGroupId": "44878",
+                    "label": "Hole 7 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199068865#1807791054_13L44878Q1-1691022215Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068865",
+                        "label": "Tommy Fleetwood",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807792054
+                      },
+                      {
+                        "providerOutcomeId": "0QA199068865#1807791056_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068865",
+                        "label": "Tie",
+                        "oddsAmerican": "-115",
+                        "oddsDecimal": 1.86956522,
+                        "oddsDecimalDisplay": "1.86",
+                        "oddsFractional": "20/23",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807793056
+                      },
+                      {
+                        "providerOutcomeId": "0QA199068865#1807791055_13L44878Q1781452393Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199068865",
+                        "label": "Sam Burns",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807794055
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071336",
+                    "eventId": "30660492",
+                    "eventGroupId": "44878",
+                    "label": "Hole 8 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071336#1807798673_13L44878Q1-1691022215Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071336",
+                        "label": "Tommy Fleetwood",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807799673
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071336#1807798675_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071336",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807800675
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071336#1807798674_13L44878Q1781452393Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071336",
+                        "label": "Sam Burns",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801674
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073608",
+                    "eventId": "30660492",
+                    "eventGroupId": "44878",
+                    "label": "Hole 9 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073608#1807805674_13L44878Q1-1691022215Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073608",
+                        "label": "Tommy Fleetwood",
+                        "oddsAmerican": "+215",
+                        "oddsDecimal": 3.15,
+                        "oddsDecimalDisplay": "3.15",
+                        "oddsFractional": "43/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806674
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073608#1807805673_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073608",
+                        "label": "Tie",
+                        "oddsAmerican": "-105",
+                        "oddsDecimal": 1.95238096,
+                        "oddsDecimalDisplay": "1.95",
+                        "oddsFractional": "20/21",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807673
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073608#1807805672_13L44878Q1781452393Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073608",
+                        "label": "Sam Burns",
+                        "oddsAmerican": "+235",
+                        "oddsDecimal": 3.35,
+                        "oddsDecimalDisplay": "3.35",
+                        "oddsFractional": "47/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808672
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199074904",
+                    "eventId": "30660492",
+                    "eventGroupId": "44878",
+                    "label": "Hole 10 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199074904#1807809839_13L44878Q1-1691022215Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074904",
+                        "label": "Tommy Fleetwood",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807810839
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074904#1807809838_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074904",
+                        "label": "Tie",
+                        "oddsAmerican": "-110",
+                        "oddsDecimal": 1.90909091,
+                        "oddsDecimalDisplay": "1.90",
+                        "oddsFractional": "10/11",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811838
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074904#1807809840_13L44878Q1781452393Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074904",
+                        "label": "Sam Burns",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812840
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "198966650",
+                    "eventId": "30660493",
+                    "eventGroupId": "44878",
+                    "label": "Hole 6 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA198966650#1807375024_13L44878Q1636720980Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966650",
+                        "label": "Mackenzie Hughes",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807376024
+                      },
+                      {
+                        "providerOutcomeId": "0QA198966650#1807375026_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966650",
+                        "label": "Tie",
+                        "oddsAmerican": "-125",
+                        "oddsDecimal": 1.8,
+                        "oddsDecimalDisplay": "1.80",
+                        "oddsFractional": "4/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807377026
+                      },
+                      {
+                        "providerOutcomeId": "0QA198966650#1807375025_13L44878Q1-1980708807Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966650",
+                        "label": "Ryan Fox",
+                        "oddsAmerican": "+275",
+                        "oddsDecimal": 3.75,
+                        "oddsDecimalDisplay": "3.75",
+                        "oddsFractional": "11/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807378025
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199069885",
+                    "eventId": "30660493",
+                    "eventGroupId": "44878",
+                    "label": "Hole 7 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199069885#1807794149_13L44878Q1636720980Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069885",
+                        "label": "Mackenzie Hughes",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807795149
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069885#1807794151_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069885",
+                        "label": "Tie",
+                        "oddsAmerican": "-115",
+                        "oddsDecimal": 1.86956522,
+                        "oddsDecimalDisplay": "1.86",
+                        "oddsFractional": "20/23",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807796151
+                      },
+                      {
+                        "providerOutcomeId": "0QA199069885#1807794150_13L44878Q1-1980708807Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199069885",
+                        "label": "Ryan Fox",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807797150
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199072232",
+                    "eventId": "30660493",
+                    "eventGroupId": "44878",
+                    "label": "Hole 8 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199072232#1807801430_13L44878Q1636720980Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072232",
+                        "label": "Mackenzie Hughes",
+                        "oddsAmerican": "+250",
+                        "oddsDecimal": 3.5,
+                        "oddsDecimalDisplay": "3.50",
+                        "oddsFractional": "5/2",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802430
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072232#1807801432_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072232",
+                        "label": "Tie",
+                        "oddsAmerican": "-130",
+                        "oddsDecimal": 1.76923077,
+                        "oddsDecimalDisplay": "1.76",
+                        "oddsFractional": "10/13",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803432
+                      },
+                      {
+                        "providerOutcomeId": "0QA199072232#1807801431_13L44878Q1-1980708807Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199072232",
+                        "label": "Ryan Fox",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807804431
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199074962",
+                    "eventId": "30660493",
+                    "eventGroupId": "44878",
+                    "label": "Hole 9 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199074962#1807810012_13L44878Q1636720980Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074962",
+                        "label": "Mackenzie Hughes",
+                        "oddsAmerican": "+205",
+                        "oddsDecimal": 3.05,
+                        "oddsDecimalDisplay": "3.05",
+                        "oddsFractional": "41/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807811012
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074962#1807810014_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074962",
+                        "label": "Tie",
+                        "oddsAmerican": "+100",
+                        "oddsDecimal": 2,
+                        "oddsDecimalDisplay": "2.00",
+                        "oddsFractional": "1/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807812014
+                      },
+                      {
+                        "providerOutcomeId": "0QA199074962#1807810013_13L44878Q1-1980708807Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199074962",
+                        "label": "Ryan Fox",
+                        "oddsAmerican": "+225",
+                        "oddsDecimal": 3.25,
+                        "oddsDecimalDisplay": "3.25",
+                        "oddsFractional": "9/4",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807813013
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ],
+                [
+                  {
+                    "providerOfferId": "199067663",
+                    "eventId": "30660494",
+                    "eventGroupId": "44878",
+                    "label": "Hole 5 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199067663#1807787267_13L44878Q1-659403079Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067663",
+                        "label": "Robert MacIntyre",
+                        "oddsAmerican": "+205",
+                        "oddsDecimal": 3.05,
+                        "oddsDecimalDisplay": "3.05",
+                        "oddsFractional": "41/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807788267
+                      },
+                      {
+                        "providerOutcomeId": "0QA199067663#1807787268_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067663",
+                        "label": "Tie",
+                        "oddsAmerican": "+115",
+                        "oddsDecimal": 2.15,
+                        "oddsDecimalDisplay": "2.15",
+                        "oddsFractional": "23/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807789268
+                      },
+                      {
+                        "providerOutcomeId": "0QA199067663#1807787266_13L44878Q1-1231573395Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199067663",
+                        "label": "Ben Griffin",
+                        "oddsAmerican": "+200",
+                        "oddsDecimal": 3,
+                        "oddsDecimalDisplay": "3.00",
+                        "oddsFractional": "2/1",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807790266
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "198966971",
+                    "eventId": "30660494",
+                    "eventGroupId": "44878",
+                    "label": "Hole 6 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA198966971#1807375954_13L44878Q1-659403079Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966971",
+                        "label": "Robert MacIntyre",
+                        "oddsAmerican": "+265",
+                        "oddsDecimal": 3.65,
+                        "oddsDecimalDisplay": "3.65",
+                        "oddsFractional": "53/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807376954
+                      },
+                      {
+                        "providerOutcomeId": "0QA198966971#1807375955_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966971",
+                        "label": "Tie",
+                        "oddsAmerican": "-125",
+                        "oddsDecimal": 1.8,
+                        "oddsDecimalDisplay": "1.80",
+                        "oddsFractional": "4/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807377955
+                      },
+                      {
+                        "providerOutcomeId": "0QA198966971#1807375953_13L44878Q1-1231573395Q20",
+                        "providerId": 2,
+                        "providerOfferId": "198966971",
+                        "label": "Ben Griffin",
+                        "oddsAmerican": "+245",
+                        "oddsDecimal": 3.45,
+                        "oddsDecimalDisplay": "3.45",
+                        "oddsFractional": "49/20",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807378953
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199071779",
+                    "eventId": "30660494",
+                    "eventGroupId": "44878",
+                    "label": "Hole 7 Winner (3 Way) - Round 4",
+                    "isSuspended": true,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199071779#1807800053_13L44878Q1-659403079Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071779",
+                        "label": "Robert MacIntyre",
+                        "oddsAmerican": "+240",
+                        "oddsDecimal": 3.4,
+                        "oddsDecimalDisplay": "3.40",
+                        "oddsFractional": "12/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807801053
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071779#1807800054_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071779",
+                        "label": "Tie",
+                        "oddsAmerican": "-115",
+                        "oddsDecimal": 1.86956522,
+                        "oddsDecimalDisplay": "1.86",
+                        "oddsFractional": "20/23",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807802054
+                      },
+                      {
+                        "providerOutcomeId": "0QA199071779#1807800052_13L44878Q1-1231573395Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199071779",
+                        "label": "Ben Griffin",
+                        "oddsAmerican": "+230",
+                        "oddsDecimal": 3.3,
+                        "oddsDecimalDisplay": "3.30",
+                        "oddsFractional": "23/10",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807803052
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  },
+                  {
+                    "providerOfferId": "199073711",
+                    "eventId": "30660494",
+                    "eventGroupId": "44878",
+                    "label": "Hole 8 Winner (3 Way) - Round 4",
+                    "isSuspended": false,
+                    "isOpen": true,
+                    "offerSubcategoryId": 11733,
+                    "isSubcategoryFeatured": false,
+                    "betOfferTypeId": 0,
+                    "providerCriterionId": "10163",
+                    "outcomes": [
+                      {
+                        "providerOutcomeId": "0QA199073711#1807805968_13L44878Q1-659403079Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073711",
+                        "label": "Robert MacIntyre",
+                        "oddsAmerican": "+280",
+                        "oddsDecimal": 3.8,
+                        "oddsDecimalDisplay": "3.80",
+                        "oddsFractional": "14/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807806968
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073711#1807805969_13L44878Q11766431831Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073711",
+                        "label": "Tie",
+                        "oddsAmerican": "-140",
+                        "oddsDecimal": 1.71428572,
+                        "oddsDecimalDisplay": "1.71",
+                        "oddsFractional": "5/7",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807807969
+                      },
+                      {
+                        "providerOutcomeId": "0QA199073711#1807805967_13L44878Q1-1231573395Q20",
+                        "providerId": 2,
+                        "providerOfferId": "199073711",
+                        "label": "Ben Griffin",
+                        "oddsAmerican": "+260",
+                        "oddsDecimal": 3.6,
+                        "oddsDecimalDisplay": "3.60",
+                        "oddsFractional": "13/5",
+                        "participant": "",
+                        "participantType": "Unknown",
+                        "sortOrder": 1807808967
+                      }
+                    ],
+                    "offerSequence": 0,
+                    "source": "5",
+                    "displayGroupId": "12",
+                    "main": false
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "subcategoryId": 15278,
+            "name": "Live Hole Score "
+          }
+        ]
+      },
+      {
+        "offerCategoryId": 532,
+        "name": "Nationality Props"
+      }
+    ],
+    "events": [
+      {
+        "eventId": "30660479",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Zac Blair vs David Skinns",
+        "nameIdentifier": "Zac Blair vs David Skinns",
+        "startDate": "2024-06-02T15:45:00.0000000Z",
+        "teamName1": "Zac Blair",
+        "teamName2": "David Skinns",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Zac Blair"
+        },
+        "team2": {
+          "name": "David Skinns"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_5948_8300",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956346",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:30:06.6330252Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660480",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Pierceson Coody vs Erik Van Rooyen",
+        "nameIdentifier": "Pierceson Coody vs Erik Van Rooyen",
+        "startDate": "2024-06-02T15:55:00.0000000Z",
+        "teamName1": "Pierceson Coody",
+        "teamName2": "Erik Van Rooyen",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Pierceson Coody"
+        },
+        "team2": {
+          "name": "Erik Van Rooyen"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_7941_46",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956353",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:38:48.7385559Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660481",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Tyler Duncan vs Vince Whaley",
+        "nameIdentifier": "Tyler Duncan vs Vince Whaley",
+        "startDate": "2024-06-02T16:05:00.0000000Z",
+        "teamName1": "Tyler Duncan",
+        "teamName2": "Vince Whaley",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Tyler Duncan"
+        },
+        "team2": {
+          "name": "Vince Whaley"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_3374_5974",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956336",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:37:57.0969024Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660482",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Sean O'Hair vs Beau Hossler",
+        "nameIdentifier": "Sean O'Hair vs Beau Hossler",
+        "startDate": "2024-06-02T16:15:00.0000000Z",
+        "teamName1": "Sean O'Hair",
+        "teamName2": "Beau Hossler",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Sean O'Hair"
+        },
+        "team2": {
+          "name": "Beau Hossler"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_7147_3353",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956341",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:38:05.0866609Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660483",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Jacob Bridgeman vs Nick Hardy",
+        "nameIdentifier": "Jacob Bridgeman vs Nick Hardy",
+        "startDate": "2024-06-02T16:25:00.0000000Z",
+        "teamName1": "Jacob Bridgeman",
+        "teamName2": "Nick Hardy",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Jacob Bridgeman"
+        },
+        "team2": {
+          "name": "Nick Hardy"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_8595_7124",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956350",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:38:57.8109884Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660484",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Maverick McNealy vs Michael Kim",
+        "nameIdentifier": "Maverick McNealy vs Michael Kim",
+        "startDate": "2024-06-02T16:40:00.0000000Z",
+        "teamName1": "Maverick McNealy",
+        "teamName2": "Michael Kim",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Maverick McNealy"
+        },
+        "team2": {
+          "name": "Michael Kim"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_5929_3443",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956325",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:40:15.5583217Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660485",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Sam Stevens vs Matt Wallace",
+        "nameIdentifier": "Sam Stevens vs Matt Wallace",
+        "startDate": "2024-06-02T16:50:00.0000000Z",
+        "teamName1": "Sam Stevens",
+        "teamName2": "Matt Wallace",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Sam Stevens"
+        },
+        "team2": {
+          "name": "Matt Wallace"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_8520_3",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956354",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:36:23.8221495Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660486",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Carson Young vs Keith Mitchell",
+        "nameIdentifier": "Carson Young vs Keith Mitchell",
+        "startDate": "2024-06-02T17:00:00.0000000Z",
+        "teamName1": "Carson Young",
+        "teamName2": "Keith Mitchell",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Carson Young"
+        },
+        "team2": {
+          "name": "Keith Mitchell"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_7660_3961",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956333",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:37:39.9297947Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660487",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Taylor Pendrith vs Chad Ramey",
+        "nameIdentifier": "Taylor Pendrith vs Chad Ramey",
+        "startDate": "2024-06-02T17:10:00.0000000Z",
+        "teamName1": "Taylor Pendrith",
+        "teamName2": "Chad Ramey",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Taylor Pendrith"
+        },
+        "team2": {
+          "name": "Chad Ramey"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_7655_8298",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956344",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:34:19.8543568Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660488",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Corey Conners vs Andrew Novak",
+        "nameIdentifier": "Corey Conners vs Andrew Novak",
+        "startDate": "2024-06-02T17:20:00.0000000Z",
+        "teamName1": "Corey Conners",
+        "teamName2": "Andrew Novak",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Corey Conners"
+        },
+        "team2": {
+          "name": "Andrew Novak"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_4317_6044",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956339",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:40:48.2235048Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660489",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Tom Kim vs Rory McIlroy",
+        "nameIdentifier": "Tom Kim vs Rory McIlroy",
+        "startDate": "2024-06-02T17:30:00.0000000Z",
+        "teamName1": "Tom Kim",
+        "teamName2": "Rory McIlroy",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Tom Kim"
+        },
+        "team2": {
+          "name": "Rory McIlroy"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_7417_14",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956347",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:39:31.0636542Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660490",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Victor Perez vs Aaron Rai",
+        "nameIdentifier": "Victor Perez vs Aaron Rai",
+        "startDate": "2024-06-02T17:45:00.0000000Z",
+        "teamName1": "Victor Perez",
+        "teamName2": "Aaron Rai",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Victor Perez"
+        },
+        "team2": {
+          "name": "Aaron Rai"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_263_122",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956334",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:38:02.4595729Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660491",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Trace Crowe vs Joel Dahmen",
+        "nameIdentifier": "Trace Crowe vs Joel Dahmen",
+        "startDate": "2024-06-02T17:55:00.0000000Z",
+        "teamName1": "Trace Crowe",
+        "teamName2": "Joel Dahmen",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Trace Crowe"
+        },
+        "team2": {
+          "name": "Joel Dahmen"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_9245_3402",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956329",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:39:18.1598572Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660492",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Tommy Fleetwood vs Sam Burns",
+        "nameIdentifier": "Tommy Fleetwood vs Sam Burns",
+        "startDate": "2024-06-02T18:05:00.0000000Z",
+        "teamName1": "Tommy Fleetwood",
+        "teamName2": "Sam Burns",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Tommy Fleetwood"
+        },
+        "team2": {
+          "name": "Sam Burns"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_12_3474",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956348",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:37:10.3770567Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660493",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Mackenzie Hughes vs Ryan Fox",
+        "nameIdentifier": "Mackenzie Hughes vs Ryan Fox",
+        "startDate": "2024-06-02T18:15:00.0000000Z",
+        "teamName1": "Mackenzie Hughes",
+        "teamName2": "Ryan Fox",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Mackenzie Hughes"
+        },
+        "team2": {
+          "name": "Ryan Fox"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_3382_134",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956355",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:38:50.4176911Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      },
+      {
+        "eventId": "30660494",
+        "displayGroupId": "12",
+        "eventGroupId": "44878",
+        "eventGroupName": "RBC Canadian Open",
+        "name": "Robert MacIntyre vs Ben Griffin",
+        "nameIdentifier": "Robert MacIntyre vs Ben Griffin",
+        "startDate": "2024-06-02T18:25:00.0000000Z",
+        "teamName1": "Robert MacIntyre",
+        "teamName2": "Ben Griffin",
+        "teamShortName1": "",
+        "teamShortName2": "",
+        "team1": {
+          "name": "Robert MacIntyre"
+        },
+        "team2": {
+          "name": "Ben Griffin"
+        },
+        "eventStatus": {
+          "state": "NOT_STARTED",
+          "isClockDisabled": false,
+          "minute": 0,
+          "second": 0,
+          "isClockRunning": false
+        },
+        "eventScorecard": {
+          "scorecardComponentId": 0
+        },
+        "mediaList": [
+          {
+            "mediaProviderName": "IMG",
+            "mediaId": "836_4_209_8585",
+            "mediaTypeName": "MatchTracker",
+            "metadata": {
+              "groupId": "956332",
+              "imgCoverage": "L1",
+              "roundNumber": "4",
+              "tournamentId": "836"
+            },
+            "updatedAt": "2024-06-02T19:40:51.3818426Z"
+          }
+        ],
+        "liveBettingOffered": false,
+        "liveBettingEnabled": false,
+        "tags": [
+          "FeaturedSubcategory",
+          "MatchTracker"
+        ],
+        "flashBetOfferCount": 0,
+        "eventMetadata": {
+          "participantMetadata": {
+
+          },
+          "mediaMetadata": {
+            "IMG_MatchTracker": {
+              "imgCoverage": "L1"
+            }
+          }
+        }
+      }
+    ],
+    "tags": [
+      "FeaturedSubcategory",
+      "MatchTracker"
+    ],
+    "nameIdentifier": "RBC Canadian Open"
+  }
+}
