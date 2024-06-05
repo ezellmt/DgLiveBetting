@@ -197,24 +197,30 @@ def fetch_data_from_db(table_name):
 def load_and_prepare_score_data(holes_data_file, odds_data_file, live=False):
     logging.info("Loading and preparing score data...")
     holes_data, score_data = load_local_data(holes_data_file, odds_data_file)
-    holesdf = create_holes_df(holes_data)
-    logging.info(f"holesdf: {holesdf.head()}")
     
-    flattened_data_score = flatten_live_hole_score(score_data)
+    # Check if the data is correctly structured here
+    if holes_data is None or score_data is None:
+        raise ValueError("Holes data or score data is None")
+        
+    holesdf = create_holes_df(holes_data)
+    flattened_data_score = flatten_live_hole_score(score_data)  # Fails if participant doesn't exist
     scoredf = create_odds_df(flattened_data_score)
-    logging.info(f"scoredf: {scoredf.head()}")
     
     merged_df = merge_data(holesdf, scoredf)
-    logging.info(f"Merged DataFrame:\n{merged_df.head()}")
     
     if live:
         live_stats_data = fetch_live_stats()
     else:
         live_stats_data = load_local_stats_data()
-        
-    filtered_merged_df = merged_df.dropna(subset=["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"])
-    
-    logging.info("Score data loaded and prepared successfully.")
+
+    # Check for key columns here, This helps before dropna is called
+    required_columns = ["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"]
+    for col in required_columns:
+        if col not in merged_df.columns:
+            raise ValueError(f"Required column {col} is missing in merged_df")
+
+    filtered_merged_df = merged_df.dropna(subset=required_columns)
+
     return holesdf, filtered_merged_df, live_stats_data, scoredf
 
 def load_and_prepare_winner_3way_data(holes_data_file, odds_data_file, live=False):
@@ -235,7 +241,12 @@ def load_and_prepare_winner_3way_data(holes_data_file, odds_data_file, live=Fals
     else:
         live_stats_data = load_local_stats_data()
         
-    filtered_merged_df = merged_df.dropna(subset=["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"])
+    required_columns = ["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"]
+    for col in required_columns:
+        if col not in merged_df.columns:
+            raise ValueError(f"Required column {col} is missing in merged_df")
+
+    filtered_merged_df = merged_df.dropna(subset=required_columns)
     
     logging.info("Winner 3-way data loaded and prepared successfully.")
     return holesdf, filtered_merged_df, live_stats_data, oddsdf

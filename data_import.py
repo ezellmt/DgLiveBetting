@@ -5,6 +5,7 @@ import logging
 import config
 from tenacity import retry, stop_after_attempt, wait_fixed
 from sqlalchemy import create_engine
+import re
 
 logging.basicConfig(level=logging.INFO)
 
@@ -82,27 +83,17 @@ def create_holes_df(holes_data):
 
 def flatten_live_hole_score(data):
     flattened_data = []
-
-    logging.info(f"Initial data structure: {json.dumps(data, indent=2)[:1000]}")
-
+    
     try:
         offer_categories = data.get('eventGroup', {}).get('offerCategories', [])
         for offer_category in offer_categories:
-            logging.info(f"Processing offerCategory: {offer_category.get('name', 'Unnamed Category')}")
             offer_subcategory_descriptors = offer_category.get('offerSubcategoryDescriptors', [])
             for subcategory_descriptor in offer_subcategory_descriptors:
                 subcategory_id = subcategory_descriptor.get('subcategoryId')
-                subcategory_name = subcategory_descriptor.get('name')
-                logging.info(f"Found subcategory with ID: {subcategory_id}, Name: {subcategory_name}")
-
                 if subcategory_id == 15278:
                     offer_subcategory = subcategory_descriptor.get('offerSubcategory')
-                    logging.info(f"Offer subcategory: {json.dumps(offer_subcategory, indent=2)[:1000]}")
-
                     if offer_subcategory is None:
-                        logging.warning(f"Offer subcategory for ID 15278 is None")
                         continue
-
                     if isinstance(offer_subcategory, dict):
                         offers = offer_subcategory.get('offers', [])
                         for offer_group in offers:
@@ -111,7 +102,7 @@ def flatten_live_hole_score(data):
                                 round_num = extract_round_number(event_label)
                                 hole = extract_hole_number(event_label)
                                 participant = extract_participant(event_label)
-
+                                
                                 for outcome in offer.get('outcomes', []):
                                     flattened_data.append({
                                         'event_id': offer.get('eventId'),
@@ -125,14 +116,11 @@ def flatten_live_hole_score(data):
                                         'odds_fractional': outcome.get('oddsFractional'),
                                         'round_num': round_num,
                                         'hole': hole,
-                                        'participant': participant
+                                        'participant': participant  # Ensure participant gets added correctly
                                     })
-
         df = pd.DataFrame(flattened_data)
-        logging.info(f"Flattened DataFrame created with shape: {df.shape}")
-        logging.info(f"Flattened DataFrame:\n{df.head()}")
+        logging.info(f"flatten_live_hole_score output columns: {df.columns}")
         return df
-
     except Exception as e:
         logging.error(f"Error while flattening data: {e}")
         raise e
@@ -205,21 +193,28 @@ def extract_round_number(event_label):
 
 def extract_hole_number(event_label):
     try:
-        if 'Hole' in event_label:
-            return int(event_label.split('Hole ')[1].split()[0])
-        return None
-    except Exception as e:
-        logging.error(f"Error extracting hole number from event_label: {event_label}, {e}")
+        if isinstance(event_label, str):
+            parts = event_label.split('-')
+            for part in parts:
+                if "hole" in part.lower():
+                    number = part.split()[-1]
+                    return int(number)
+        raise ValueError(f"Error extracting hole number from event_label: {event_label}")
+    except ValueError as e:
+        logging.error(e)
         return None
 
 def extract_participant(event_label):
+    # Assuming the format "Participant Hole Score - Hole X - Round Y"
     try:
-        if 'Hole Score' in event_label:
-            return event_label.split(' Hole Score')[0]
-        return None
-    except Exception as e:
-        logging.error(f"Error extracting participant from event_label: {event_label}, {e}")
-        return None
+        pattern = re.compile(r'(\D+)(\s-\sHole\s\d+\s-\sRound\s\d+)')
+        match = pattern.match(event_label)
+        if match:
+            return match.group(1).strip()
+        raise ValueError(f"Error extracting participant from event_label: {event_label}")
+    except ValueError as e:
+        logging.error(e)
+        return 'Unknown Participant'
 
 def create_odds_df(flattened_data_odds):
     logging.info("Creating odds DataFrame...")
@@ -239,11 +234,28 @@ def create_odds_df(flattened_data_odds):
 def merge_data(holes_df, odds_df):
     logging.info("Merging holes and odds data...")
 
-    # Convert columns to the same type
-    holes_df['hole'] = holes_df['hole'].astype(str)
-    odds_df['hole'] = odds_df['hole'].astype(str)
-    holes_df['round_num'] = holes_df['round_num'].astype(str)
-    odds_df['round_num'] = odds_df['round_num'].astype(str)
+    # Convert columns to the same type and ensure they exist
+    if 'hole' in holes_df.columns and 'hole' in odds_df.columns:
+        holes_df['hole'] = holes_df['hole'].astype(str)
+        odds_df['hole'] = odds_df['hole'].astype(str)
+    else:
+        logging.error("Hole column missing in one of the dataframes.")
+        raise KeyError("Hole column missing in one of the dataframes.")
+
+    if 'round_num' in holes_df.columns and 'round_num' in odds_df.columns:
+        holes_df['round_num'] = holes_df['round_num'].astype(str)
+        odds_df['round_num'] = odds_df['round_num'].astype(str)
+    else:
+        logging.error("Round_num column missing in one of the dataframes.")
+        raise KeyError("Round_num column missing in one of the dataframes.")
+
+    # Check for matching round_num and hole values
+    matching_rounds = set(holes_df['round_num']).intersection(set(odds_df['round_num']))
+    matching_holes = set(holes_df['hole']).intersection(set(odds_df['hole']))
+
+    if not matching_rounds or not matching_holes:
+        logging.error("No matching round_num or hole values found in dataframes.")
+        raise ValueError("No matching round_num or hole values found in dataframes.")
 
     # Log column names of both dataframes
     logging.info(f"holes_df columns: {holes_df.columns.tolist()}")
@@ -253,7 +265,8 @@ def merge_data(holes_df, odds_df):
     merged_data = pd.merge(odds_df, holes_df, on=['round_num', 'hole'], how='left')
 
     # Log merged dataframe sample
-    logging.info(f"Merged DataFrame:\n{merged_data.head()}")
+    logging.info(f"Merged DataFrame columns: {merged_data.columns.tolist()}")
+    logging.info(f"Merged DataFrame sample:\n{merged_data.head()}")
 
     # Assign new columns and log columns
     if 'outcome_label' in merged_data.columns:
@@ -262,7 +275,7 @@ def merge_data(holes_df, odds_df):
             actual_implied_probability=lambda df: df.apply(get_stat_value, axis=1).round(2),
             Implied_Probability_Delta=lambda df: (df['actual_implied_probability'] - df['implied_probability']).round(2)
         )
-        logging.info(f"Processed Merged DataFrame:\n{merged_data.head()}")
+        logging.info(f"Processed Merged DataFrame columns: {merged_data.columns.tolist()}")
     else:
         logging.error("'outcome_label' column not found in merged_data")
         raise KeyError("'outcome_label' column not found in merged_data")
@@ -331,21 +344,42 @@ def load_local_stats_data():
     logging.info("Local live stats data loaded successfully.")
     return live_stats
 
-def load_and_prepare_data(holes_data_file, odds_data_file, live=False):
-    logging.info("Loading and preparing data...")
-    holes_data, odds_data = load_local_data(holes_data_file, odds_data_file)
+def load_and_prepare_score_data(holes_data_file, odds_data_file, live=False):
+    logging.info("Loading and preparing score data...")
+    holes_data, score_data = load_local_data(holes_data_file, odds_data_file)
+    
+    if holes_data is None or score_data is None:
+        raise ValueError("Holes data or score data is None")
+        
+    logging.info(f"Holes data: {holes_data}")
+    logging.info(f"Score data: {score_data}")
+    
     holesdf = create_holes_df(holes_data)
     logging.info(f"holesdf: {holesdf.head()}")
     
-    flattened_data_odds = flatten_live_hole_score(odds_data)
-    oddsdf = create_odds_df(flattened_data_odds)
-    logging.info(f"oddsdf: {oddsdf.head()}")
+    flattened_data_score = flatten_live_hole_score(score_data)
+    logging.info(f"flattened_data_score: {flattened_data_score}")
     
-    merged_df = merge_data(holesdf, oddsdf)
-    filtered_merged_df = merged_df.dropna(subset=["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"])
+    scoredf = create_odds_df(flattened_data_score)
+    logging.info(f"scoredf: {scoredf.head()}")
     
-    live_stats_data = fetch_live_stats() if live else load_local_stats_data()
-    return holesdf, filtered_merged_df, live_stats_data, oddsdf
+    merged_df = merge_data(holesdf, scoredf)
+    logging.info(f"merged_df: {merged_df.head()}")
+
+    if live:
+        live_stats_data = fetch_live_stats()
+    else:
+        live_stats_data = load_local_stats_data()
+
+    required_columns = ["hole", "participant", "outcome_label", "odds_decimal", "actual_implied_probability", "Implied_Probability_Delta"]
+    for col in required_columns:
+        if col not in merged_df.columns:
+            raise ValueError(f"Required column {col} is missing in merged_df")
+
+    filtered_merged_df = merged_df.dropna(subset=required_columns)
+    logging.info(f"filtered_merged_df: {filtered_merged_df.head()}")
+
+    return holesdf, filtered_merged_df, live_stats_data, scoredf
 
 def load_and_prepare_live_hole_winner_3way_data(holes_data_file, odds_data_file, live=False):
     logging.info("Loading and preparing live hole winner 3-way data...")

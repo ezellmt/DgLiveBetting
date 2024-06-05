@@ -35,7 +35,7 @@ LOCAL_LIVE_MATCHUPS_ODDS_DATA_FILE = 'live_matchups_odds_data.json'
 LOCAL_LIVE_STATS_DATA_FILES_TEMPLATE = 'live_stats_data_round_{round}.json'
 
 # Other configurations
-EVENTGROUP = 'your_event_group_id'
+EVENTGROUP = '44878'
 ROUNDS_COMPLETED = 4  # Number of completed rounds, adjust as needed
 
 # Colors
