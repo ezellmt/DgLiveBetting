@@ -83,7 +83,6 @@ def create_holes_df(holes_data):
 
 def flatten_live_hole_score(data):
     flattened_data = []
-    
     try:
         offer_categories = data.get('eventGroup', {}).get('offerCategories', [])
         for offer_category in offer_categories:
@@ -99,9 +98,9 @@ def flatten_live_hole_score(data):
                         for offer_group in offers:
                             for offer in offer_group:
                                 event_label = offer.get('label', '')
-                                round_num = extract_round_number(event_label)
-                                hole = extract_hole_number(event_label)
-                                participant = extract_participant(event_label)
+                                round_num = extract_round_number(event_label) or 'Unknown'
+                                hole = extract_hole_number(event_label) or 'Unknown'
+                                participant = extract_participant(event_label) or 'Unknown Participant'
                                 
                                 for outcome in offer.get('outcomes', []):
                                     flattened_data.append({
@@ -116,10 +115,11 @@ def flatten_live_hole_score(data):
                                         'odds_fractional': outcome.get('oddsFractional'),
                                         'round_num': round_num,
                                         'hole': hole,
-                                        'participant': participant  # Ensure participant gets added correctly
+                                        'participant': participant
                                     })
         df = pd.DataFrame(flattened_data)
         logging.info(f"flatten_live_hole_score output columns: {df.columns}")
+        logging.info(f"flatten_live_hole_score sample data: {df.head()}")
         return df
     except Exception as e:
         logging.error(f"Error while flattening data: {e}")
@@ -155,7 +155,7 @@ def flatten_live_hole_winner_3way(data):
                                 event_label = offer.get('label', '')
                                 round_num = extract_round_number(event_label)
                                 hole = extract_hole_number(event_label)
-                                participant = extract_participant(event_label)
+                                participant = extract_participant_from_next_label(event_label, offer.get('outcomes', []))
 
                                 for outcome in offer.get('outcomes', []):
                                     flattened_data.append({
@@ -184,8 +184,9 @@ def flatten_live_hole_winner_3way(data):
 
 def extract_round_number(event_label):
     try:
-        if 'Round' in event_label:
-            return int(event_label.split('Round ')[1].split()[0])
+        match = re.search(r'Round\s(\d+)', event_label, re.IGNORECASE)
+        if match:
+            return int(match.group(1))
         return None
     except Exception as e:
         logging.error(f"Error extracting round number from event_label: {event_label}, {e}")
@@ -193,21 +194,18 @@ def extract_round_number(event_label):
 
 def extract_hole_number(event_label):
     try:
-        if isinstance(event_label, str):
-            parts = event_label.split('-')
-            for part in parts:
-                if "hole" in part.lower():
-                    number = part.split()[-1]
-                    return int(number)
-        raise ValueError(f"Error extracting hole number from event_label: {event_label}")
-    except ValueError as e:
-        logging.error(e)
+        match = re.search(r'Hole\s(\d+)', event_label, re.IGNORECASE)
+        if match:
+            return int(match.group(1))
+        return None
+    except Exception as e:
+        logging.error(f"Error extracting hole number from event_label: {event_label}, {e}")
         return None
 
 def extract_participant(event_label):
     # Assuming the format "Participant Hole Score - Hole X - Round Y"
     try:
-        pattern = re.compile(r'(\D+)(\s-\sHole\s\d+\s-\sRound\s\d+)')
+        pattern = re.compile(r'(.+?)\s-\sHole\s\d+\s-\sRound\s\d+')
         match = pattern.match(event_label)
         if match:
             return match.group(1).strip()
@@ -216,20 +214,33 @@ def extract_participant(event_label):
         logging.error(e)
         return 'Unknown Participant'
 
+def extract_participant_from_next_label(event_label, outcomes):
+    # Assuming the participant is in the next label for "Hole 18 Winner (3 Way) - Round 4"
+    try:
+        for outcome in outcomes:
+            if outcome.get('label'):
+                return outcome.get('label').strip()
+        return 'Unknown Participant'
+    except Exception as e:
+        logging.error(f"Error extracting participant from next label: {e}")
+        return 'Unknown Participant'
+
 def create_odds_df(flattened_data_odds):
     logging.info("Creating odds DataFrame...")
     oddsdf = pd.DataFrame(flattened_data_odds).assign(
-        event_label_parts=lambda df: df['event_label'].str.split(' - '),
-        hole=lambda df: df['event_label_parts'].apply(lambda x: int(x[1].split(' ')[1]) if len(x) > 1 else None),
-        round_num=lambda df: df['event_label_parts'].apply(lambda x: int(x[3].split(' ')[1]) if len(x) > 3 else None),
+        round_num=lambda df: df['round_num'],
         odds_decimal=lambda df: pd.to_numeric(df['odds_decimal'], errors='coerce'),
         implied_probability=lambda df: ((1 / df['odds_decimal']) * 100).round(2)
-    ).drop(columns=['event_label_parts'])
+    )
 
-    column_order = ['round_num', 'hole', 'outcome_label', 'odds_american', 'odds_decimal', 'odds_fractional', 'implied_probability']
+    if 'participant' not in oddsdf.columns:
+        oddsdf['participant'] = 'Unknown'
+
+    column_order = ['round_num', 'hole', 'outcome_label', 'odds_american', 'odds_decimal', 'odds_fractional', 'implied_probability', 'participant']
     oddsdf = oddsdf[column_order]
     logging.info(f"oddsdf created: {oddsdf.head()}")
     return oddsdf
+
 
 def merge_data(holes_df, odds_df):
     logging.info("Merging holes and odds data...")
@@ -249,24 +260,25 @@ def merge_data(holes_df, odds_df):
         logging.error("Round_num column missing in one of the dataframes.")
         raise KeyError("Round_num column missing in one of the dataframes.")
 
-    # Check for matching round_num and hole values
-    matching_rounds = set(holes_df['round_num']).intersection(set(odds_df['round_num']))
-    matching_holes = set(holes_df['hole']).intersection(set(odds_df['hole']))
-
-    if not matching_rounds or not matching_holes:
-        logging.error("No matching round_num or hole values found in dataframes.")
-        raise ValueError("No matching round_num or hole values found in dataframes.")
-
-    # Log column names of both dataframes
-    logging.info(f"holes_df columns: {holes_df.columns.tolist()}")
-    logging.info(f"odds_df columns: {odds_df.columns.tolist()}")
-
-    # Merge dataframes
-    merged_data = pd.merge(odds_df, holes_df, on=['round_num', 'hole'], how='left')
+    # Use outer join to retain all rows from both dataframes
+    merged_data = pd.merge(odds_df, holes_df, on=['round_num', 'hole'], how='outer')
 
     # Log merged dataframe sample
     logging.info(f"Merged DataFrame columns: {merged_data.columns.tolist()}")
     logging.info(f"Merged DataFrame sample:\n{merged_data.head()}")
+
+    # Handle missing values in 'outcome_label'
+    merged_data['outcome_label'] = merged_data['outcome_label'].fillna('unknown')
+
+    # Ensure 'participant' column exists
+    if 'participant' not in merged_data.columns:
+        merged_data['participant'] = 'Unknown'
+
+    # Fill None values in 'implied_probability' with 0
+    merged_data['implied_probability'] = merged_data['implied_probability'].fillna(0)
+
+    # Convert 'implied_probability' to numeric
+    merged_data['implied_probability'] = pd.to_numeric(merged_data['implied_probability'], errors='coerce')
 
     # Assign new columns and log columns
     if 'outcome_label' in merged_data.columns:
@@ -288,13 +300,21 @@ def get_stat_column(outcome_label):
         return 'total_birdie_percent'
     elif 'par' in outcome_label:
         return 'total_par_percent'
-    elif 'bogey' in outcome_label:
+    elif 'bogey' in outcome_label or 'bogey or worse' in outcome_label:
         return 'total_bogey_percent'
     else:
         return None
 
 def get_stat_value(row):
-    return row[row['stat_column']] if pd.notnull(row['stat_column']) else None
+    try:
+        if pd.isnull(row['stat_column']):
+            return 0
+        stat_value = row.get(row['stat_column'], 0)
+        return stat_value
+    except Exception as e:
+        logging.error(f"Error in get_stat_value: {e}")
+        return 0
+
 
 def fetch_live_stats(num_rounds=4):
     logging.info("Fetching live stats...")

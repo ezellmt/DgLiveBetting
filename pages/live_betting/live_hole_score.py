@@ -22,14 +22,13 @@ def layout(pathname):
         dag.AgGrid(
             id='live-hole-score-table',
             columnDefs=[
-                {'headerName': 'Event ID', 'field': 'event_id', 'sortable': True, 'filter': False, 'minWidth': 70, 'maxWidth': 100},
-                {'headerName': 'Event Label', 'field': 'event_label', 'sortable': True, 'filter': False, 'minWidth': 120, 'maxWidth': 200},
-                {'headerName': 'Outcome Label', 'field': 'outcome_label', 'sortable': True, 'filter': False, 'minWidth': 100, 'maxWidth': 140},
-                {'headerName': 'Odds American', 'field': 'odds_american', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
-                {'headerName': 'Odds Decimal', 'field': 'odds_decimal', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
-                {'headerName': 'Odds Fractional', 'field': 'odds_fractional', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
+                {'headerName': 'Round Number', 'field': 'round_num', 'sortable': True, 'filter': False, 'minWidth': 70, 'maxWidth': 100},
+                {'headerName': 'Hole', 'field': 'hole', 'sortable': True, 'filter': False, 'minWidth': 60, 'maxWidth': 80},
+                {'headerName': 'Label', 'field': 'label', 'sortable': True, 'filter': False, 'minWidth': 120, 'maxWidth': 200},
+                {'headerName': 'Odds American', 'field': 'oddsamerican', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
+                {'headerName': 'Odds Decimal', 'field': 'oddsdecimal', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
+                {'headerName': 'Odds Fractional', 'field': 'oddsfractional', 'sortable': True, 'filter': False, 'minWidth': 80, 'maxWidth': 100},
                 {'headerName': 'Implied Probability', 'field': 'implied_probability', 'sortable': True, 'filter': False, 'minWidth': 140, 'maxWidth': 180},
-                {'headerName': 'Participant', 'field': 'participant', 'sortable': True, 'filter': False, 'minWidth': 100, 'maxWidth': 150},
             ],
             rowData=fetch_live_hole_score_data().to_dict('records'),
             defaultColDef={

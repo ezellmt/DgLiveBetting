@@ -203,11 +203,22 @@ def load_and_prepare_score_data(holes_data_file, odds_data_file, live=False):
         raise ValueError("Holes data or score data is None")
         
     holesdf = create_holes_df(holes_data)
-    flattened_data_score = flatten_live_hole_score(score_data)  # Fails if participant doesn't exist
+    logging.info(f"holesdf: {holesdf.head()}")
+
+    flattened_data_score = flatten_live_hole_score(score_data)
+    logging.info(f"flattened_data_score: {flattened_data_score}")
+
     scoredf = create_odds_df(flattened_data_score)
-    
+    logging.info(f"scoredf: {scoredf.head()}")
+
+    # Inspect unique values of round_num and hole
+    logging.info(f"holesdf round_num unique values: {holesdf['round_num'].unique()}")
+    logging.info(f"holesdf hole unique values: {holesdf['hole'].unique()}")
+    logging.info(f"scoredf round_num unique values: {scoredf['round_num'].unique()}")
+    logging.info(f"scoredf hole unique values: {scoredf['hole'].unique()}")
+
     merged_df = merge_data(holesdf, scoredf)
-    
+
     if live:
         live_stats_data = fetch_live_stats()
     else:
